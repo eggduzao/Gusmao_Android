@@ -1,0 +1,9 @@
+package com.egglab.pacman.asset;
+
+public class MainSoundAssets {
+
+	public MainSoundAssets() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

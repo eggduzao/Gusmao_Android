@@ -1,0 +1,26 @@
+package com.egglab.pacman.asset;
+
+import com.egg.framework.Graphics;
+import com.egg.framework.Graphics.ImageFormat;
+import com.egg.robotgame.Assets;
+
+public class MainImageAssets {
+	
+
+
+	public static void load() {
+		Graphics g = game.getGraphics();
+		Assets.menu = g.newImage("menu.png", ImageFormat.RGB565);
+		Assets.background = g.newImage("background.png", ImageFormat.RGB565);
+		Assets.character = g.newImage("character.png", ImageFormat.ARGB4444);
+		Assets.character2 = g.newImage("character2.png", ImageFormat.ARGB4444);
+		Assets.character3 = g.newImage("character3.png", ImageFormat.ARGB4444);
+		Assets.characterJump = g.newImage("jumped.png", ImageFormat.ARGB4444);
+		Assets.characterDown = g.newImage("down.png", ImageFormat.ARGB4444);
+	}
+
+	public static void dispose() {
+
+	}
+
+}

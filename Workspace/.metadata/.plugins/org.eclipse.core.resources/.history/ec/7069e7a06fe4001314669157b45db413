@@ -1,0 +1,9 @@
+package com.kilobolt.TweenAccessors;
+
+public class ValueAccessor {
+
+	public ValueAccessor() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,84 @@
+package com.egglab.pacman.object;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import com.egglab.pacman.main.MainGame;
+
+import android.graphics.Color;
+import android.graphics.Point;
+
+public class Map {
+	
+	private int level;
+	private ArrayList<MapItem> map;
+	
+	private static int WALL_SIZE = 11;
+	private static int CANDY_SIZE = 5;
+	
+	public Map(int level) {
+		this.level = level;
+		Scanner s = null;
+		try {
+			s = new Scanner(new File("map"+String.valueOf(level)+".txt"));
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		int row = 0;
+		int col = 0;
+		while (s.hasNext()){
+			char[] currStr = s.next().toCharArray();
+			col = 0;
+			for (char c : currStr){
+				if(c == '#'){
+					int x = row * WALL_SIZE;
+					int y = col * WALL_SIZE;
+					int width = WALL_SIZE;
+					int height = WALL_SIZE;
+					MapItemType type = MapItemType.WALL;
+				}
+				else if(c == 'C'){
+					
+				}
+				else if(c == 'S'){
+					
+				}
+				else{
+					col++;
+					continue;
+				}
+				this.map.add(object)
+				col++;
+			}
+			row++;
+		}
+		s.close();
+	}
+	
+	public void paint(MainGame mainGame){
+		for(int i = 0; i < this.getSize().x; i++){
+			for(int j = 0; j < this.getSize().y; j++){
+				
+			}
+		}
+	}
+
+	public char get(int x, int y){
+		return this.map.get(x).get(y).charValue();
+	}
+	
+	public Point getSize(){
+		return new Point(this.map.size(),this.map.get(0).size());
+	}
+	
+	public int getLevel() {
+		return level;
+	}
+
+	public void setLevel(int level) {
+		this.level = level;
+	}
+
+}

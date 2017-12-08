@@ -1,0 +1,37 @@
+package com.egglab.pacman.main;
+
+import android.graphics.Point;
+import android.view.Display;
+
+import com.egglab.pacman.framework.Screen;
+import com.egglab.pacman.implementation.AndroidGame;
+
+public class MainGame extends AndroidGame {
+		
+	private Point screenSize;
+	
+	@Override
+	public Screen getInitScreen() {
+		Display display = getWindowManager().getDefaultDisplay();
+		display.getSize(screenSize);
+		return new MainScreen(this);
+	}
+
+	@Override
+	public void onBackPressed() {
+		getCurrentScreen().backButton();
+	}
+
+	@Override
+	public void onResume() {
+		super.onResume();
+
+	}
+
+	@Override
+	public void onPause() {
+		super.onPause();
+
+	}
+
+}

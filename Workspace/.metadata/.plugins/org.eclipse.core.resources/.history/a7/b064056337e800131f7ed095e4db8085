@@ -1,0 +1,44 @@
+package com.egglab.pacman.object;
+
+public class MapItem{
+
+	private int x;
+	private int y;
+	private int width;
+	private int height;
+	private MapItemType type;
+	
+	public MapItem(int x, int y, int width, int height) {
+		this.x = x;
+		this.y = y;
+		this.width = width;
+		this.height = height;
+		this.type = MapItemType.SUPERCANDY;
+	}
+
+	@Override
+	public int getX() {
+		return this.x;
+	}
+
+	@Override
+	public int getY() {
+		return this.y;
+	}
+	
+	@Override
+	public int getWidth() {
+		return this.width;
+	}
+
+	@Override
+	public int getHeight() {
+		return this.height;
+	}
+
+	@Override
+	public MapItemType getType() {
+		return this.type;
+	}
+
+}

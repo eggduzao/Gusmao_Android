@@ -1,0 +1,9 @@
+package com.kilobolt.ui;
+
+public class SimpleButton {
+
+	public SimpleButton() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

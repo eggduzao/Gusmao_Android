@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="java.applet.Applet"/>
+<fullyQualifiedTypeName name="kiloboltgame.Background"/>
+<fullyQualifiedTypeName name="kiloboltgame.StartingClass"/>
+<fullyQualifiedTypeName name="kiloboltgame.Heliboy"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.awt.Rectangle"/>
+<fullyQualifiedTypeName name="java.awt.Font"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.GL20"/>
+<fullyQualifiedTypeName name="com.kilobolt.Screens.GameScreen"/>
+<fullyQualifiedTypeName name="com.kilobolt.ZBHelpers.InputHandler"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.Color"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g2d.Animation"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.math.Intersector"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.math.Rectangle"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g2d.Animation.PlayMode"/>
+<fullyQualifiedTypeName name="com.egglab.pacman.main.MainGame.GameState"/>
+<fullyQualifiedTypeName name="com.egglab.pacman.implementation.AndroidGame"/>
+<fullyQualifiedTypeName name="com.egglab.pacman.framework.Screen"/>
+<fullyQualifiedTypeName name="com.egglab.pacman.framework.Game"/>
+<fullyQualifiedTypeName name="com.egglab.pacman.main.GameState"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="android.util.Log"/>
+<fullyQualifiedTypeName name="com.egglab.pacman.main.MainGame"/>
+<fullyQualifiedTypeName name="com.egglab.pacman.framework.Graphics"/>
+<fullyQualifiedTypeName name="com.egglab.pacman.framework.Image"/>
+<fullyQualifiedTypeName name="com.egglab.pacman.framework.Graphics.ImageFormat"/>
+<fullyQualifiedTypeName name="android.graphics.Color"/>
+<fullyQualifiedTypeName name="StaticClass"/>
+<fullyQualifiedTypeName name="com.egglab.pacman.asset.MainImageAssets"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="com.egglab.pacman.implementation.AndroidGraphics"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+</qualifiedTypeNameHistroy>

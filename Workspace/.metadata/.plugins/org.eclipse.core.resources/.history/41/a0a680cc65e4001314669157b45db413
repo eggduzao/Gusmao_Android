@@ -1,0 +1,9 @@
+package com.kilobolt.Screens;
+
+public class SplashScreen {
+
+	public SplashScreen() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

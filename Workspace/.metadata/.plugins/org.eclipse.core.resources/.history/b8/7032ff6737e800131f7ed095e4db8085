@@ -1,0 +1,15 @@
+package com.egglab.pacman.object;
+
+public interface MapElement {
+
+	public int getX();
+	
+	public int getY();
+	
+	public int getWidth();
+	
+	public int getHeight();
+	
+	public MapItemType getType();
+	
+}

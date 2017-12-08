@@ -1,0 +1,7 @@
+package com.egglab.pacman.main;
+
+public enum GameState {
+
+	INIT, SCREEN1, SCREEN2, SCREEN3
+	
+}

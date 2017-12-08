@@ -1,0 +1,15 @@
+package com.egglab.pacman.asset;
+
+public class MainImageAssets {
+	
+
+
+	public static void load() {
+
+	}
+
+	public static void dispose() {
+
+	}
+
+}

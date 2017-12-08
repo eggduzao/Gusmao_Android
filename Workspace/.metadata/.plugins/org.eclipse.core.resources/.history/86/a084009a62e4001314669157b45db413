@@ -1,0 +1,9 @@
+package com.kilobolt;
+
+public class SpriteAccessor {
+
+	public SpriteAccessor() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

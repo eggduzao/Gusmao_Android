@@ -1,0 +1,25 @@
+package com.egglab.pacman.asset;
+
+import com.egglab.pacman.framework.Graphics;
+import com.egglab.pacman.framework.Graphics.ImageFormat;
+import com.egglab.pacman.framework.Image;
+import com.egglab.pacman.main.MainGame;
+
+public class MainImageAssets {
+	
+    public static Image image1;
+    public static Image image2;
+    public static Image image3;
+
+	public static void load(MainGame mainGame) {
+		Graphics g = mainGame.getGraphics();
+		image1 = g.newImage("image1.png", ImageFormat.ARGB4444);
+		image2 = g.newImage("image2.png", ImageFormat.ARGB4444);
+		image3 = g.newImage("image3.png", ImageFormat.ARGB4444);
+	}
+
+	public static void dispose() {
+
+	}
+
+}

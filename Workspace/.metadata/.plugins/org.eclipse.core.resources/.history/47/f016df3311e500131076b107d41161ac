@@ -1,0 +1,9 @@
+package com.egglab.pacman.main;
+
+public class MainGame {
+
+	public MainGame() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,1277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Spring</title>
+  <link rel="alternate" href="https://spring.io/blog" />
+  <link rel="self" href="https://spring.io/blog.atom" />
+  <id>http://spring.io/blog.atom</id>
+  <icon>https://spring.io/favicon.ico</icon>
+  <updated>2014-05-30T16:51:14Z</updated>
+  <entry>
+    <title>Spring Tool Suite and Groovy/Grails Tool Suite 3.6.0.M1 released</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/05/30/spring-tool-suite-and-groovy-grails-tool-suite-3-6-0-m1-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Martin Lippert</name>
+    </author>
+    <id>tag:spring.io,2014-05-30:1615</id>
+    <updated>2014-05-30T16:51:14Z</updated>
+    <content type="html">&lt;p&gt;Dear Spring Community,&lt;/p&gt;
+
+&lt;p&gt;I am happy to announce the first milestone release 3.6.0.M1 of the Spring Tool Suite (STS) and the Groovy/Grails Tool Suite (GGTS).&lt;/p&gt;
+
+&lt;p&gt;Highlights from this milestone build include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;based on Eclipse Luna 4.4&lt;/li&gt;
+&lt;li&gt;support for Groovy 2.3&lt;/li&gt;
+&lt;li&gt;updated to Grails 2.4&lt;/li&gt;
+&lt;li&gt;updated to tc Server 2.9.6&lt;/li&gt;
+&lt;li&gt;minor improvements to the Gradle tooling&lt;/li&gt;
+&lt;li&gt;bugfixes, including fixes for endless build loops and memory leaks&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;To download the distributions, please go visit:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Spring Tool Suite: &lt;a href="https://spring.io/tools/sts/all"&gt;https://spring.io/tools/sts/all&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Groovy/Grails Tool Suite: &lt;a href="https://spring.io/tools/ggts/all"&gt;https://spring.io/tools/ggts/all&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Detailed new and noteworthy notes can be found here: &lt;a href="http://docs.spring.io/sts/nan/v360/NewAndNoteworthy-M1.html"&gt;STS/GGTS 3.6.0.M1 New &amp;amp; Noteworthy&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;NOTE:
+Both tool suites ship on top of the latest Eclipse Luna 4.4 release candidates as 64bit based zip files ONLY.
+We plan to no longer ship installers and 32bit distributions anymore. Update sites will be available for use with
+older Eclipse versions and 32bit installations.&lt;/p&gt;
+
+&lt;p&gt;We are very keen to hear any feedback on this change.&lt;/p&gt;
+
+&lt;p&gt;The 3.6.0 release is scheduled early July 2014 - shortly after the Eclipse Luna release.&lt;/p&gt;
+
+&lt;p&gt;Enjoy!&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Web Flow 2.4.0 and 2.3.4 Available</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/05/30/spring-web-flow-2-4-0-and-2-3-4-available" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Rossen Stoyanchev</name>
+    </author>
+    <id>tag:spring.io,2014-05-30:1614</id>
+    <updated>2014-05-30T13:28:30Z</updated>
+    <content type="html">&lt;p&gt;I'm pleased to announce a double bill release of Spring Web Flow 2.4.0 and 2.3.4.&lt;/p&gt;
+
+&lt;p&gt;Please refer to the &lt;a href="http://docs.spring.io/spring-webflow/docs/2.4.0.RELEASE/reference/html/whatsnew.html#whatsnew-swf-240"&gt;"What's new"&lt;/a&gt; section of the reference for an overview of the 2.4.0 release. The 2.3.4 release is minor maintenance release mainly with fixes for issues reported by JSF users.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Batch 3.0.0 is now GA</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/05/29/spring-batch-3-0-0-is-now-ga" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Michael Minella</name>
+    </author>
+    <id>tag:spring.io,2014-05-29:1605</id>
+    <updated>2014-05-29T21:00:00Z</updated>
+    <content type="html">&lt;p&gt;Today we are pleased to announce the release of Spring Batch 3.0.  This release of Spring Batch provides support for JSR-352 - we are committed to providing that support, as well as a number of new features for our existing Spring Batch community.&lt;/p&gt;
+
+&lt;h2&gt;
+&lt;a name="user-content-features-in-spring-batch-30" class="anchor" href="#features-in-spring-batch-30"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Features in Spring Batch 3.0&lt;/h2&gt;
+
+&lt;p&gt;The major features for this release include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;JSR-352 support&lt;/li&gt;
+&lt;li&gt;Promotion of Spring Batch Integration into Spring Batch&lt;/li&gt;
+&lt;li&gt;Complete overhaul of dependencies&lt;/li&gt;
+&lt;li&gt;Support for SQLite&lt;/li&gt;
+&lt;li&gt;Job scope&lt;/li&gt;
+&lt;li&gt;Removal of "archetypes" in favor of Spring Boot&lt;/li&gt;
+&lt;li&gt;Switch from Maven to Gradle for building Spring Batch&lt;/li&gt;
+&lt;/ul&gt;&lt;h2&gt;
+&lt;a name="user-content-jsr-352-support" class="anchor" href="#jsr-352-support"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;JSR-352 Support&lt;/h2&gt;
+
+&lt;p&gt;Providing one of the most important new features in JEE7, JSR-352 brings standardization of batch processing to the java stack.  The Spring team not only provided extensive input into the spec with two team members on the expert group, but Spring Batch served as the inspiration for most of the programming model.  Spring Batch 3.0 continues the Spring commitment to JSR-352 by providing the most production tested code base to implement this specification.&lt;/p&gt;
+
+&lt;p&gt;It's important to note the differences between JSR-352 and Spring Batch.  JSR-352 provides three things:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;An API for building batch components&lt;/li&gt;
+&lt;li&gt;An XML based DSL for configuring batch components&lt;/li&gt;
+&lt;li&gt;A contract of how batch components interact&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;JSR-352 does not provide any &lt;em&gt;implementations&lt;/em&gt; of batch components.  Spring Batch provides 17 readers, 16 writers and countless other utilities and extensions that have been tested for years in enterprise production environments.  Spring Batch provides scalability options beyond a single JVM.  Finally Spring Batch provides big data support both through the Spring for Apache Hadoop project and as a cornerstone of Spring XD.&lt;/p&gt;
+
+&lt;p&gt;To read more about Spring Batch's implementation of JSR-352, visit our reference documentation here: &lt;a href="http://docs.spring.io/spring-batch/trunk/reference/html/jsr-352.html"&gt;http://docs.spring.io/spring-batch/trunk/reference/html/jsr-352.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;
+&lt;a name="user-content-promote-spring-batch-integration-to-spring-batch" class="anchor" href="#promote-spring-batch-integration-to-spring-batch"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Promote Spring Batch Integration to Spring Batch&lt;/h2&gt;
+
+&lt;p&gt;From the outside looking in, it can be confusing to determine when to use Spring Batch and when to use Spring Integration.  To be truthful, there isn't always a solid either/or answer.  In many cases, the combination of the two technologies is the best option to provide robust, scalable solutions.  This is why Spring Batch Integration was developed.  A collection of Spring Batch extensions, this module allows developers to use Spring Integration to extend the power of Spring Batch.  Functionality like multi-JVM scalability and message driven job launching are provided with no custom code and minimal configuration with this module.&lt;/p&gt;
+
+&lt;p&gt;The functionality provided in Spring Batch Integration extend batch processing beyond what JSR-352 provides capabilities to provide robust, enterprise grade solutions.  You can read more about Spring Batch Integration and it's components in the reference documentation here: &lt;a href="http://docs.spring.io/spring-batch/trunk/reference/html/springBatchIntegration.html"&gt;http://docs.spring.io/spring-batch/trunk/reference/html/springBatchIntegration.html&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;
+&lt;a name="user-content-complete-overhaul-of-dependencies" class="anchor" href="#complete-overhaul-of-dependencies"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Complete overhaul of dependencies&lt;/h2&gt;
+
+&lt;p&gt;As part of an ongoing effort across the Spring portfolio, the Spring Batch third party dependencies have been updated.  This allows users of Spring Batch to use the latest and greatest of the libraries they trust with Spring Batch.&lt;/p&gt;
+
+&lt;h2&gt;
+&lt;a name="user-content-support-for-sqlite" class="anchor" href="#support-for-sqlite"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Support for SQLite&lt;/h2&gt;
+
+&lt;p&gt;Most integration test scenarios use HSQLDB as a datasource due to its ability to easily create in-memory databases.  However, there are times when a simple, single file, option would be nicer.  For that reason, we have added SQLite as a supported database for the Spring Batch repository.&lt;/p&gt;
+
+&lt;h2&gt;
+&lt;a name="user-content-job-scope" class="anchor" href="#job-scope"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Job scope&lt;/h2&gt;
+
+&lt;p&gt;Spring Batch provides two custom bean scopes.  The first, step scope, has been around for years as a way to delay bean initialization until the step the bean is used by is executed.  With Spring Batch 3.0, we've added a job scope.  This will allow the ability to lazily initialize job level components (JobExecutionListeners for example) as well as provide functionality like job parameter injection to those components.  You can read more about the job scope in the reference manual here: &lt;a href="http://docs.spring.io/spring-batch/trunk/reference/html/configureStep.html#job-scope"&gt;http://docs.spring.io/spring-batch/trunk/reference/html/configureStep.html#job-scope&lt;/a&gt;.
+&lt;/p&gt;&lt;h2&gt;
+&lt;a name="user-content-removal-of-archetypes-in-favor-of-spring-boot" class="anchor" href="#removal-of-archetypes-in-favor-of-spring-boot"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Removal of "archetypes" in favor of Spring Boot&lt;/h2&gt;
+&lt;p&gt;Spring Batch has traditionally provided a sample maven project as a way to bootstrap a Spring Batch project.  With Spring Boot, we've removed those projects in favor of using the dynamic bootstrapping capabilities that Spring Boot provides.  We believe that Boot provides a far superior option to what the old "archetypes" provided.&lt;/p&gt;
+
+&lt;h2&gt;
+&lt;a name="user-content-move-from-maven-to-gradle" class="anchor" href="#move-from-maven-to-gradle"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Move from Maven to Gradle&lt;/h2&gt;
+
+&lt;p&gt;Finally, this release is the first for Spring Batch to move from Maven to Gradle for an internal build system. This change will have zero effect on developers consuming the jars.  They will still be available via Maven Central for maven users.&lt;/p&gt;
+
+&lt;h2&gt;
+&lt;a name="user-content-looking-forward" class="anchor" href="#looking-forward"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Looking forward&lt;/h2&gt;
+
+&lt;p&gt;With this release, we look forward to planning and developing our 3.1 release.  The 3.1 release will have two major themes: simplification and supporting the Spring XD efforts.&lt;/p&gt;
+
+&lt;p&gt;For the simplification side, we want to improve the usability of Spring Batch to a point where it can be considered for less "heavy" processes.  By focusing here, it allows developers to "grow" a solution.  Many times things that start out as simple scripts and evolve into processes enterprises need to lean on for mission critical functionality.  We want Spring Batch to be a consideration at the script stage so that when that functionality needs an enterprise grade solution, it's already there.&lt;/p&gt;
+
+&lt;p&gt;Beyond core Spring Batch functionality, Spring Batch serves as a core technology for Spring XD.  We will continue to expand Spring Batch's capabilities to support big data solutions through Spring XD and Spring for Apache Hadoop.&lt;/p&gt;
+
+&lt;h2&gt;
+&lt;a name="user-content-conclusion" class="anchor" href="#conclusion"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;3.0.0 represents the completion of the next major milestone for Spring Batch.  It brings the standards that JSR-352 provides to our community as well as providing an exhaustive collection of additional features for the advanced user.  We look forward to your feedback in the forums, social media, and in person at &lt;a href="http://springone2gx.com/register"&gt;SpringOne2GX&lt;/a&gt;!&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Using the innovative Groovy template engine in Spring Boot</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/05/28/using-the-innovative-groovy-template-engine-in-spring-boot" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Cédric Champeau</name>
+    </author>
+    <id>tag:spring.io,2014-05-28:1602</id>
+    <updated>2014-05-28T14:59:02Z</updated>
+    <content type="html">&lt;p&gt;With the release of &lt;a href="https://spring.io/blog/2014/05/27/spring-boot-1-1-0-m2-available-now"&gt;Spring Boot 1.1.0.M2&lt;/a&gt; came the support for the &lt;a href="http://beta.groovy-lang.org/docs/groovy-2.3.2/html/documentation/markup-template-engine.html"&gt;new template engine&lt;/a&gt; that &lt;a href="http://groovy.codehaus.org/Groovy+2.3+release+notes"&gt;Groovy 2.3&lt;/a&gt; provides. In this post, we will describe the benefits of using such an engine and of course how you can use it in Boot.&lt;/p&gt;
+
+&lt;p&gt;All the source code in this post is available on GitHub, so feel free to clone the repository and give it a try:&lt;/p&gt;
+
+&lt;div class="highlight highlight-bash"&gt;&lt;pre&gt;git clone https://github.com/melix/springboot-groovytemplates.git
+&lt;span class="nb"&gt;cd &lt;/span&gt;springboot-groovytemplates
+./gradlew run
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Then open your browser on http://localhost:8080&lt;/p&gt;
+
+&lt;p&gt;This application is fully written in &lt;a href="http://groovy.codehaus.org"&gt;Groovy&lt;/a&gt; and also makes use of &lt;a href="https://spring.io/guides/gs/accessing-data-gorm/"&gt;GORM for Boot&lt;/a&gt;, but it is of course possible to use Groovy only for the templating part and write the rest of the application in Java. Starting from now, we will only focus on the templating aspect of this project.&lt;/p&gt;
+
+&lt;h1&gt;
+&lt;a name="user-content-dependencies" class="anchor" href="#dependencies"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Dependencies&lt;/h1&gt;
+
+&lt;p&gt;Integrating with Groovy 2.3 templates in Spring Boot is very easy. You just need to add a dependency to the &lt;code&gt;groovy-templates&lt;/code&gt; module in your build file. For example, if you use Gradle, just use this:&lt;/p&gt;
+
+&lt;div class="highlight highlight-groovy"&gt;&lt;pre&gt;&lt;span class="n"&gt;dependencies&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+  &lt;span class="n"&gt;compile&lt;/span&gt; &lt;span class="s2"&gt;"org.codehaus.groovy:groovy:${groovyVersion}"&lt;/span&gt;
+  &lt;span class="n"&gt;compile&lt;/span&gt; &lt;span class="s2"&gt;"org.codehaus.groovy:groovy-templates:${groovyVersion}"&lt;/span&gt;
+  &lt;span class="n"&gt;compile&lt;/span&gt; &lt;span class="s2"&gt;"org.springframework.boot:spring-boot-starter-web:${springBootVersion}"&lt;/span&gt;
+  &lt;span class="n"&gt;compile&lt;/span&gt; &lt;span class="s2"&gt;"org.grails:gorm-hibernate4-spring-boot:1.0.0.RELEASE"&lt;/span&gt;
+
+  &lt;span class="n"&gt;runtime&lt;/span&gt; &lt;span class="s2"&gt;"com.h2database:h2:1.3.173"&lt;/span&gt;
+&lt;span class="o"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h1&gt;
+&lt;a name="user-content-groovy-templates" class="anchor" href="#groovy-templates"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Groovy templates&lt;/h1&gt;
+
+&lt;p&gt;The Groovy markup template engine provides an innovative templating system based on the builder syntax. It offers various key features:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;hierarchical (builder) syntax to generate XML-like contents (in particular, HTML5)&lt;/li&gt;
+&lt;li&gt;template includes&lt;/li&gt;
+&lt;li&gt;compilation of templates to bytecode for fast rendering&lt;/li&gt;
+&lt;li&gt;internationalization&lt;/li&gt;
+&lt;li&gt;layout mechanism for sharing strucural patterns&lt;/li&gt;
+&lt;li&gt;optional type checking&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;and more! you can find a full list of the features of this template engine in the &lt;a href="http://beta.groovy-lang.org/docs/groovy-2.3.2/html/documentation/markup-template-engine.html"&gt;documentation&lt;/a&gt;. The templates are basically Groovy code with special support for the template use case.&lt;/p&gt;
+
+&lt;p&gt;Let's start with a very simple example, where we want to display an index with a simple message containing the version numbers of Spring Boot and Groovy currently in use:&lt;/p&gt;
+
+&lt;div class="highlight highlight-groovy"&gt;&lt;pre&gt;&lt;span class="n"&gt;yieldUnescaped&lt;/span&gt; &lt;span class="s1"&gt;'&amp;lt;!DOCTYPE html&amp;gt;'&lt;/span&gt;
+&lt;span class="n"&gt;html&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+  &lt;span class="n"&gt;head&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+    &lt;span class="n"&gt;title&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'Spring Boot - Groovy templates example'&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;link&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nl"&gt;rel:&lt;/span&gt; &lt;span class="s1"&gt;'stylesheet'&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nl"&gt;href:&lt;/span&gt; &lt;span class="s1"&gt;'/css/bootstrap.min.css'&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+  &lt;span class="o"&gt;}&lt;/span&gt;
+  &lt;span class="n"&gt;body&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+    &lt;span class="n"&gt;div&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nl"&gt;class:&lt;/span&gt; &lt;span class="s1"&gt;'container'&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+      &lt;span class="n"&gt;div&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nl"&gt;class:&lt;/span&gt; &lt;span class="s1"&gt;'navbar'&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+        &lt;span class="n"&gt;div&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nl"&gt;class:&lt;/span&gt; &lt;span class="s1"&gt;'navbar-inner'&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+          &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nl"&gt;class:&lt;/span&gt; &lt;span class="s1"&gt;'brand'&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;
+              &lt;span class="nl"&gt;href:&lt;/span&gt; &lt;span class="s1"&gt;'http://beta.groovy-lang.org/docs/groovy-2.3.2/html/documentation/markup-template-engine.html'&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;
+              &lt;span class="s1"&gt;'Groovy - Template Engine docs'&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+          &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nl"&gt;class:&lt;/span&gt; &lt;span class="s1"&gt;'brand'&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;
+              &lt;span class="nl"&gt;href:&lt;/span&gt; &lt;span class="s1"&gt;'hhttp://projects.spring.io/spring-boot/'&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+            &lt;span class="n"&gt;yield&lt;/span&gt; &lt;span class="s1"&gt;'Spring Boot docs'&lt;/span&gt;
+          &lt;span class="o"&gt;}&lt;/span&gt;
+        &lt;span class="o"&gt;}&lt;/span&gt;
+      &lt;span class="o"&gt;}&lt;/span&gt;
+      &lt;span class="n"&gt;div&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"This is an application using Boot $bootVersion and Groovy templates $groovyVersion"&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+    &lt;span class="o"&gt;}&lt;/span&gt;
+  &lt;span class="o"&gt;}&lt;/span&gt;
+&lt;span class="o"&gt;}&lt;/span&gt;
+
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;On the first line, you can read the &lt;code&gt;yieldUnescaped&lt;/code&gt; instruction. It instructs the renderer to render the argument &lt;em&gt;as is&lt;/em&gt;. This instruction can be used to render any kind of text based contents. Here, it is used to render the doctype declaration of our HTML file, but you can really use it to render anything. The template engine provides a number of helper functions like &lt;code&gt;yield&lt;/code&gt;, which are described in the &lt;a href="http://beta.groovy-lang.org/docs/groovy-2.3.2/html/documentation/markup-template-engine.html"&gt;documentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The rest of the template consists of a hierarchical structure matching the HTML output, making it very natural to render HTML contents. For example, the code: &lt;code&gt;link(rel: 'stylesheet', href: '/css/bootstrap.min.css')&lt;/code&gt; will be rendered as:&lt;/p&gt;
+
+&lt;div class="highlight highlight-html"&gt;&lt;pre&gt;&lt;span class="nt"&gt;&amp;lt;link&lt;/span&gt; &lt;span class="na"&gt;rel=&lt;/span&gt;&lt;span class="s"&gt;'stylesheet'&lt;/span&gt; &lt;span class="na"&gt;href=&lt;/span&gt;&lt;span class="s"&gt;'/css/bootstrap.min.css'&lt;/span&gt;&lt;span class="nt"&gt;/&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Similarily, this:&lt;/p&gt;
+
+&lt;div class="highlight highlight-groovy"&gt;&lt;pre&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nl"&gt;class:&lt;/span&gt; &lt;span class="s1"&gt;'brand'&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;
+  &lt;span class="nl"&gt;href:&lt;/span&gt; &lt;span class="s1"&gt;'http://beta.groovy-lang.org/docs/groovy-2.3.2/html/documentation/markup-template-engine.html'&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;
+  &lt;span class="s1"&gt;'Groovy - Template Engine docs'&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;will be rendered as:&lt;/p&gt;
+
+&lt;div class="highlight highlight-html"&gt;&lt;pre&gt;&lt;span class="nt"&gt;&amp;lt;a&lt;/span&gt; &lt;span class="na"&gt;class=&lt;/span&gt;&lt;span class="s"&gt;'brand'&lt;/span&gt; &lt;span class="na"&gt;href=&lt;/span&gt;&lt;span class="s"&gt;'http://beta.groovy-lang.org/docs/groovy-2.3.2/html/documentation/markup-template-engine.html'&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;Groovy - Template Engine docs&lt;span class="nt"&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Note how the attributes in the template map to tag attributes in the rendered HTML. The last argument corresponds to the body of the tag. Alternatively, it is possible to use the &lt;code&gt;yield&lt;/code&gt; instruction to render the body of the tag:&lt;/p&gt;
+
+&lt;div class="highlight highlight-groovy"&gt;&lt;pre&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nl"&gt;class:&lt;/span&gt; &lt;span class="s1"&gt;'brand'&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;
+  &lt;span class="nl"&gt;href:&lt;/span&gt; &lt;span class="s1"&gt;'http://beta.groovy-lang.org/docs/groovy-2.3.2/html/documentation/markup-template-engine.html'&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+  &lt;span class="n"&gt;yield&lt;/span&gt; &lt;span class="s1"&gt;'Groovy - Template Engine docs'&lt;/span&gt;
+&lt;span class="o"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The choice often depends on whether you have nested contents to render or not. But so far, all the contents that our template generates is static. The last part of the template is more interesting:&lt;/p&gt;
+
+&lt;div class="highlight highlight-groovy"&gt;&lt;pre&gt;&lt;span class="n"&gt;div&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"This is an application using Boot $bootVersion and Groovy templates $groovyVersion"&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;As you guessed, this will be rendered as:&lt;/p&gt;
+
+&lt;div class="highlight highlight-html"&gt;&lt;pre&gt;&lt;span class="nt"&gt;&amp;lt;div&amp;gt;&lt;/span&gt;This is an application using Boot 1.1.0.M2 and Groovy templates 2.3.2&lt;span class="nt"&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The template, here, makes use of two variables which are found in the &lt;em&gt;model&lt;/em&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;bootVersion&lt;/li&gt;
+&lt;li&gt;groovyVersion&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Those are exposed by our application as variables in the template, so let's see how we do this.&lt;/p&gt;
+
+&lt;h1&gt;
+&lt;a name="user-content-the-controller" class="anchor" href="#the-controller"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;The controller&lt;/h1&gt;
+
+&lt;p&gt;The only thing that we have to do is creating a controller which will render our view, and as usual with Spring Boot, it's a matter of a few lines of code:&lt;/p&gt;
+
+&lt;div class="highlight highlight-groovy"&gt;&lt;pre&gt;&lt;span class="kn"&gt;package&lt;/span&gt; &lt;span class="n"&gt;sample&lt;/span&gt;
+
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;org.springframework.boot.Banner&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;org.springframework.stereotype.Controller&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;org.springframework.web.bind.annotation.RequestMapping&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;org.springframework.web.servlet.ModelAndView&lt;/span&gt;
+
+&lt;span class="nd"&gt;@Controller&lt;/span&gt;
+&lt;span class="kd"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;SampleController&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+  &lt;span class="nd"&gt;@RequestMapping&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"/"&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+  &lt;span class="kt"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;home&lt;/span&gt;&lt;span class="o"&gt;()&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;new&lt;/span&gt; &lt;span class="nf"&gt;ModelAndView&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;
+        &lt;span class="s2"&gt;"views/home"&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;
+        &lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="nl"&gt;bootVersion:&lt;/span&gt; &lt;span class="n"&gt;Banner&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;package&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;implementationVersion&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; 
+         &lt;span class="nl"&gt;groovyVersion:&lt;/span&gt; &lt;span class="n"&gt;GroovySystem&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;version&lt;/span&gt;&lt;span class="o"&gt;])&lt;/span&gt;
+  &lt;span class="o"&gt;}&lt;/span&gt;
+&lt;span class="o"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Our &lt;code&gt;home&lt;/code&gt; method returns a &lt;code&gt;ModelAndView&lt;/code&gt; instance, and the model only contains two elements, which are the Spring Boot version and well as the Groovy version. The view is automatically found thanks to its reference, &lt;code&gt;views/home&lt;/code&gt;. Spring Boot expects the view to be found in &lt;code&gt;src/main/resources/templates/views&lt;/code&gt;. Can it be easier?&lt;/p&gt;
+
+&lt;h1&gt;
+&lt;a name="user-content-real-life-data" class="anchor" href="#real-life-data"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Real life data&lt;/h1&gt;
+
+&lt;p&gt;In real life, templates are unlikely to be that simple. You will have entities, databases, CRUD operations, etc... So the next step is to show you how you can use the new template engine to render a model which is more complex. For that, we made use of GORM, so we will start by defining an entity named &lt;code&gt;Person&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class="highlight highlight-groovy"&gt;&lt;pre&gt;&lt;span class="kn"&gt;package&lt;/span&gt; &lt;span class="n"&gt;sample&lt;/span&gt;
+
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;grails.persistence.*&lt;/span&gt;
+
+&lt;span class="nd"&gt;@Entity&lt;/span&gt;
+&lt;span class="kd"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;Person&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+  &lt;span class="n"&gt;String&lt;/span&gt; &lt;span class="n"&gt;firstName&lt;/span&gt;
+  &lt;span class="n"&gt;String&lt;/span&gt; &lt;span class="n"&gt;lastName&lt;/span&gt;
+&lt;span class="o"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;And what we will want to do is, for example:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;listing persons in the database&lt;/li&gt;
+&lt;li&gt;adding/editing a new person&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;So we will need two templates: one for listing persons, the other for creating a person (or editing). The list example is interesting because it will let us show you how you can iterate on a list in the template. So before that, let's create a controller with the list operation:&lt;/p&gt;
+
+&lt;div class="highlight highlight-groovy"&gt;&lt;pre&gt;&lt;span class="nd"&gt;@Controller&lt;/span&gt;
+&lt;span class="nd"&gt;@RequestMapping&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"/person"&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+&lt;span class="kd"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;PersonController&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+
+  &lt;span class="nd"&gt;@RequestMapping&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"list"&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+  &lt;span class="kt"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;list&lt;/span&gt;&lt;span class="o"&gt;()&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;new&lt;/span&gt; &lt;span class="nf"&gt;ModelAndView&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'views/person/list'&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="nl"&gt;persons:&lt;/span&gt; &lt;span class="n"&gt;Person&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;list&lt;/span&gt;&lt;span class="o"&gt;()])&lt;/span&gt;
+  &lt;span class="o"&gt;}&lt;/span&gt;
+&lt;span class="o"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;You can see that similarily to what we did in the simple example, we return a &lt;code&gt;ModelAndView&lt;/code&gt; example, but this time, the model contains a list of persons. So let's see what the template looks like:&lt;/p&gt;
+
+&lt;div class="highlight highlight-groovy"&gt;&lt;pre&gt;&lt;span class="n"&gt;yieldUnescaped&lt;/span&gt; &lt;span class="s1"&gt;'&amp;lt;!DOCTYPE html&amp;gt;'&lt;/span&gt;
+&lt;span class="n"&gt;html&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+  &lt;span class="n"&gt;head&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+    &lt;span class="n"&gt;title&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'Spring Boot - Groovy templates example'&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;link&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nl"&gt;rel:&lt;/span&gt; &lt;span class="s1"&gt;'stylesheet'&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nl"&gt;href:&lt;/span&gt; &lt;span class="s1"&gt;'/css/bootstrap.min.css'&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+  &lt;span class="o"&gt;}&lt;/span&gt;
+  &lt;span class="n"&gt;body&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+    &lt;span class="n"&gt;div&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nl"&gt;class:&lt;/span&gt; &lt;span class="s1"&gt;'container'&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+      &lt;span class="n"&gt;div&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nl"&gt;class:&lt;/span&gt; &lt;span class="s1"&gt;'navbar'&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+        &lt;span class="n"&gt;div&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nl"&gt;class:&lt;/span&gt; &lt;span class="s1"&gt;'navbar-inner'&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+          &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nl"&gt;class:&lt;/span&gt; &lt;span class="s1"&gt;'brand'&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;
+              &lt;span class="nl"&gt;href:&lt;/span&gt; &lt;span class="s1"&gt;'http://beta.groovy-lang.org/docs/groovy-2.3.2/html/documentation/markup-template-engine.html'&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;
+              &lt;span class="s1"&gt;'Groovy - Template Engine docs'&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+          &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nl"&gt;class:&lt;/span&gt; &lt;span class="s1"&gt;'brand'&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;
+              &lt;span class="nl"&gt;href:&lt;/span&gt; &lt;span class="s1"&gt;'hhttp://projects.spring.io/spring-boot/'&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+            &lt;span class="n"&gt;yield&lt;/span&gt; &lt;span class="s1"&gt;'Spring Boot docs'&lt;/span&gt;
+          &lt;span class="o"&gt;}&lt;/span&gt;
+        &lt;span class="o"&gt;}&lt;/span&gt;
+      &lt;span class="o"&gt;}&lt;/span&gt;
+
+      &lt;span class="n"&gt;ul&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+        &lt;span class="n"&gt;persons&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;each&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt; &lt;span class="n"&gt;person&lt;/span&gt; &lt;span class="o"&gt;-&amp;gt;&lt;/span&gt;
+          &lt;span class="n"&gt;li&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+            &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nl"&gt;href:&lt;/span&gt;&lt;span class="s2"&gt;"/person/$person.id"&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;"$person.lastName $person.firstName"&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+          &lt;span class="o"&gt;}&lt;/span&gt;
+        &lt;span class="o"&gt;}&lt;/span&gt;
+      &lt;span class="o"&gt;}&lt;/span&gt;
+
+      &lt;span class="n"&gt;div&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+        &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nl"&gt;href:&lt;/span&gt;&lt;span class="s1"&gt;'/person/add'&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'Add new person'&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+      &lt;span class="o"&gt;}&lt;/span&gt;
+    &lt;span class="o"&gt;}&lt;/span&gt;
+  &lt;span class="o"&gt;}&lt;/span&gt;
+&lt;span class="o"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Most of the template is actually corresponding to the decoration of the page, and copied from the original template. At this point, you may wonder what you can do to improve this, but we will come back to that later, and focus on the most interesting part of this template, the iteration:&lt;/p&gt;
+
+&lt;div class="highlight highlight-groovy"&gt;&lt;pre&gt;&lt;span class="n"&gt;ul&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+  &lt;span class="n"&gt;persons&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;each&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt; &lt;span class="n"&gt;person&lt;/span&gt; &lt;span class="o"&gt;-&amp;gt;&lt;/span&gt;
+    &lt;span class="n"&gt;li&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+      &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nl"&gt;href:&lt;/span&gt; &lt;span class="s2"&gt;"/person/$person.id"&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;"$person.lastName $person.firstName"&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+    &lt;span class="o"&gt;}&lt;/span&gt;
+  &lt;span class="o"&gt;}&lt;/span&gt;
+&lt;span class="o"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Looping over the &lt;code&gt;persons&lt;/code&gt; variable is done thanks to the traditional &lt;code&gt;each&lt;/code&gt; method that Groovy developers are used to. This is normal, because the templates are in fact Groovy code! So we can iterate on the persons, we give a name (&lt;code&gt;person&lt;/code&gt;) to the current person in the iteration, then use it inside an &lt;code&gt;a&lt;/code&gt; tag.&lt;/p&gt;
+
+&lt;p&gt;With several persons in database, the resulting HTML would be something like this:&lt;/p&gt;
+
+&lt;div class="highlight highlight-html"&gt;&lt;pre&gt;&lt;span class="nt"&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class="na"&gt;href=&lt;/span&gt;&lt;span class="s"&gt;'/person/1'&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;John Doe&lt;span class="nt"&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class="na"&gt;href=&lt;/span&gt;&lt;span class="s"&gt;'/person/2'&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;Bob Dylan&lt;span class="nt"&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class="na"&gt;href=&lt;/span&gt;&lt;span class="s"&gt;'/person/3'&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;Guillaume Laforge&lt;span class="nt"&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class="na"&gt;href=&lt;/span&gt;&lt;span class="s"&gt;'/person/4'&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;Graeme Rocher&lt;span class="nt"&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class="na"&gt;href=&lt;/span&gt;&lt;span class="s"&gt;'/person/5'&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;Dave Syer&lt;span class="nt"&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;So if you are used to JSPs, GSPs and any kind of HTML-like templating system, you can immediately see that this template engine will release you from the infamous issue of having to deal with opening/closing tags. And this is just a beginning... As an illustration of how you can simplify things, we will introduce you to the &lt;em&gt;layout&lt;/em&gt; mechanism.&lt;/p&gt;
+
+&lt;p&gt;If you remember, we actually have two templates that share a common structure. They both use Twitter Bootstrap, they both share the same menu, and eventually, the only thing that changes is the page title and the main body. What if we could extract this from our templates and share it?&lt;/p&gt;
+
+&lt;h1&gt;
+&lt;a name="user-content-introducing-layouts" class="anchor" href="#introducing-layouts"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Introducing layouts&lt;/h1&gt;
+
+&lt;p&gt;Layouts are made for this. So let's extract the common part of our template into a &lt;em&gt;main.tpl&lt;/em&gt; file that we will save into &lt;em&gt;src/main/resources/templates/layouts&lt;/em&gt;:&lt;/p&gt;
+
+&lt;div class="highlight highlight-groovy"&gt;&lt;pre&gt;&lt;span class="n"&gt;yieldUnescaped&lt;/span&gt; &lt;span class="s1"&gt;'&amp;lt;!DOCTYPE html&amp;gt;'&lt;/span&gt;
+&lt;span class="n"&gt;html&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+  &lt;span class="n"&gt;head&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+    &lt;span class="n"&gt;title&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;pageTitle&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;link&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nl"&gt;rel:&lt;/span&gt; &lt;span class="s1"&gt;'stylesheet'&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nl"&gt;href:&lt;/span&gt; &lt;span class="s1"&gt;'/css/bootstrap.min.css'&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+  &lt;span class="o"&gt;}&lt;/span&gt;
+  &lt;span class="n"&gt;body&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+    &lt;span class="n"&gt;div&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nl"&gt;class:&lt;/span&gt; &lt;span class="s1"&gt;'container'&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+      &lt;span class="n"&gt;div&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nl"&gt;class:&lt;/span&gt; &lt;span class="s1"&gt;'navbar'&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+        &lt;span class="n"&gt;div&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nl"&gt;class:&lt;/span&gt; &lt;span class="s1"&gt;'navbar-inner'&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+          &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nl"&gt;class:&lt;/span&gt; &lt;span class="s1"&gt;'brand'&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;
+              &lt;span class="nl"&gt;href:&lt;/span&gt; &lt;span class="s1"&gt;'http://beta.groovy-lang.org/docs/groovy-2.3.2/html/documentation/markup-template-engine.html'&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;
+              &lt;span class="s1"&gt;'Groovy - Template Engine docs'&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+          &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nl"&gt;class:&lt;/span&gt; &lt;span class="s1"&gt;'brand'&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;
+              &lt;span class="nl"&gt;href:&lt;/span&gt; &lt;span class="s1"&gt;'hhttp://projects.spring.io/spring-boot/'&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+            &lt;span class="n"&gt;yield&lt;/span&gt; &lt;span class="s1"&gt;'Spring Boot docs'&lt;/span&gt;
+          &lt;span class="o"&gt;}&lt;/span&gt;
+        &lt;span class="o"&gt;}&lt;/span&gt;
+      &lt;span class="o"&gt;}&lt;/span&gt;
+      &lt;span class="n"&gt;mainBody&lt;/span&gt;&lt;span class="o"&gt;()&lt;/span&gt;
+    &lt;span class="o"&gt;}&lt;/span&gt;
+  &lt;span class="o"&gt;}&lt;/span&gt;
+&lt;span class="o"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This looks very similar to a standard template, but you can actually find two special things:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;code&gt;title(pageTitle)&lt;/code&gt; where &lt;code&gt;pageTitle&lt;/code&gt; is expected to be the page title that we want to give&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;mainBody()&lt;/code&gt;, which will cause rendering of the main body for pages using that layout. Note the parenthesis which are important.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Now let's update the home page template to use this layout:&lt;/p&gt;
+
+&lt;div class="highlight highlight-groovy"&gt;&lt;pre&gt;&lt;span class="n"&gt;layout&lt;/span&gt; &lt;span class="s1"&gt;'layouts/main.tpl'&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;
+    &lt;span class="nl"&gt;pageTitle:&lt;/span&gt; &lt;span class="s1"&gt;'Spring Boot - Groovy templates example with layout'&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;
+    &lt;span class="nl"&gt;mainBody:&lt;/span&gt; &lt;span class="n"&gt;contents&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+      &lt;span class="n"&gt;div&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"This is an application using Boot $bootVersion and Groovy templates $groovyVersion"&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+    &lt;span class="o"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;You can see that we call the &lt;code&gt;layout&lt;/code&gt; method and provide it with several arguments:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;the name of the layout file to be used (&lt;code&gt;layouts/main.tpl&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;pageTitle&lt;/code&gt;, a simple string&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;mainBody&lt;/code&gt;, using the &lt;code&gt;contents&lt;/code&gt; block&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Use of the &lt;code&gt;contents&lt;/code&gt; block will trigger the rendering of the contents of &lt;code&gt;mainBody&lt;/code&gt; inside the layout when the &lt;code&gt;mainBody()&lt;/code&gt; instruction is found. So using this layout file, we are definitely sharing a common, structural pattern, against multiple templates. As an illustration, let's see how the &lt;code&gt;list.tpl&lt;/code&gt; template now looks like:&lt;/p&gt;
+
+&lt;div class="highlight highlight-groovy"&gt;&lt;pre&gt;&lt;span class="n"&gt;layout&lt;/span&gt; &lt;span class="s1"&gt;'layouts/main.tpl'&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;
+    &lt;span class="nl"&gt;pageTitle:&lt;/span&gt; &lt;span class="s1"&gt;'List persons'&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;
+    &lt;span class="nl"&gt;mainBody:&lt;/span&gt; &lt;span class="n"&gt;contents&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+      &lt;span class="n"&gt;ul&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+        &lt;span class="n"&gt;persons&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;each&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt; &lt;span class="n"&gt;person&lt;/span&gt; &lt;span class="o"&gt;-&amp;gt;&lt;/span&gt;
+          &lt;span class="n"&gt;li&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+            &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nl"&gt;href:&lt;/span&gt;&lt;span class="s2"&gt;"/person/$person.id"&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;"$person.lastName $person.firstName"&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+          &lt;span class="o"&gt;}&lt;/span&gt;
+        &lt;span class="o"&gt;}&lt;/span&gt;
+      &lt;span class="o"&gt;}&lt;/span&gt;
+
+      &lt;span class="n"&gt;div&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+        &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nl"&gt;href:&lt;/span&gt;&lt;span class="s1"&gt;'/person/add'&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'Add new person'&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+      &lt;span class="o"&gt;}&lt;/span&gt;
+    &lt;span class="o"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Of course, layouts are themselves composable, so you can use layouts inside layouts...&lt;/p&gt;
+
+&lt;h1&gt;
+&lt;a name="user-content-conclusion" class="anchor" href="#conclusion"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;In this post, we have showed you how Spring Boot makes it very easy to use the new template engine that Groovy introduced in Groovy 2.3. This template engine offers a very natural and powerful syntax to generate any kind of text based contents. A full description of the capabilities of the template engine can be found in the &lt;a href="http://beta.groovy-lang.org/docs/groovy-2.3.2/html/documentation/markup-template-engine.html"&gt;Groovy documentation&lt;/a&gt; and an alternative application using the same technology can be found in the &lt;a href="https://github.com/spring-projects/spring-boot/tree/master/spring-boot-samples/spring-boot-sample-web-groovy-templates"&gt;Spring Boot samples&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Last but not least, native support for this template engine is coming into Spring 4.1! So expect more Groovy love in the future!&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Webinar Replay:  Data-Driven Applications with Spring and Neo4j</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/05/28/webinar-replay-data-driven-applications-with-spring-and-neo4j" />
+    <category term="news" label="News and Events" />
+    <author>
+      <name>Pieter Humphrey</name>
+    </author>
+    <id>tag:spring.io,2014-05-28:1603</id>
+    <updated>2014-05-28T14:46:00Z</updated>
+    <content type="html">&lt;p&gt;Speakers: Michael Hunger, Josh Long  &lt;/p&gt;
+
+&lt;p&gt;Slides: &lt;a href="https://speakerdeck.com/jexp/spring-data-neo4j-and-spring-boot"&gt;https://speakerdeck.com/jexp/spring-data-neo4j-and-spring-boot&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;Spring Data Neo4j 3.0 is here and it supports Neo4j 2.0. Neo4j is a tiny graph database with a big punch. Graph databases are imminently suited to asking interesting questions, and doing analysis. Want to load the Facebook friend graph? Build a recommendation engine? Neo4j's just the ticket. Join Spring Data Neo4j lead Michael Hunger (@mesirii) and Spring Developer Advocate Josh Long (@starbuxman) for a look at how to build smart, graph-driven applications with Spring Data Neo4j and Spring Boot. &lt;/p&gt;
+
+&lt;p&gt;Note: there are some minor audio issues in the source recording that could not be edited out. &lt;/p&gt;
+
+&lt;p&gt;Learn more about Spring Data Neo4j at &lt;a href="http://projects.spring.io/spring-data-neo4j/"&gt;http://projects.spring.io/spring-data-neo4j/&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe width="420" height="315" src="//www.youtube.com/embed/ZfbJ1ZJdb_A" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</content>
+  </entry>
+  <entry>
+    <title>This Week in Spring  - May 27th, 2014</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/05/28/this-week-in-spring-may-27th-2014" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2014-05-28:1598</id>
+    <updated>2014-05-28T04:58:57Z</updated>
+    <content type="html">&lt;p&gt;Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! Here in the States we had a 3-day weekend, which was nice. Good chance to watch some of those amazing tech talks! If you're like me, you've run out of tech talks, and will be glad to see that we have a lot more going up today! &lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href="http://spring.io/blog/2014/05/21/grails-2-4-released"&gt;Grails project lead Graeme Rocher just announced Grails 2.4&lt;/a&gt;! The new release is amazing for a slew of reasons, not the least of which is that some of its many amazing features are easy to use with Spring Boot, too. Double win! Congratulations, Graeme and team. (And also thank you, for another amazing release!) &lt;/li&gt;
+&lt;li&gt;
+&lt;a href="http://spring.io/blog/2014/05/27/spring-boot-1-1-0-m2-available-now"&gt;Spring Boot 1.1.0.M2 is now available&lt;/a&gt;!  The new release features improved support for Spring Data Solr, Spring Data Gemfire, and the entire Spring Data Dijkstra release train. The new release also offers GSP (Groovy Server Pages) and Velocity as templating options, along with upgrades to various libraries like Spring Security 3.2.4, and Spring Batch 3.0. This release train is moving quickly, so jump onboard while you can! There's a &lt;em&gt;lot more&lt;/em&gt; great stuff, so check out the release notes. &lt;/li&gt;
+&lt;li&gt;June webinars are here! Ramnivas Laddad on launches Spring Cloud on June 3rd in &lt;a href="http://spring.io/blog/2014/05/27/webinar-abstracting-paas-services-to-be-portable-with-spring-cloud"&gt;Abstracting PaaS services to be portable with Spring Cloud&lt;/a&gt;, Michael Minella in &lt;a href="http://spring.io/blog/2014/05/27/webinar-spring-batch-3-0-0"&gt;Spring Batch 3.0.0&lt;/a&gt; on June 10th, and Glenn Renfro in &lt;a href="http://spring.io/blog/2014/05/27/webinar-spring-integration-done-boot-ifully"&gt;Spring Integration Done Boot-ifully&lt;/a&gt; on June 17th.&lt;/li&gt;
+&lt;li&gt;This blog introduces some of the limitations of Hibernate's inbuilt JDBC logging and then introduces &lt;a href="https://code.google.com/p/log4jdbc-remix/"&gt;log4jdbc&lt;/a&gt; as used in a simple Spring / Hibernate application.  &lt;/li&gt;
+&lt;li&gt;Our pal Eugen Paraschiv has put together a very &lt;a href="http://www.baeldung.com/2011/12/22/the-persistence-layer-with-spring-data-jpa/"&gt;nice introduction to Spring Data JPA&lt;/a&gt;. &lt;/li&gt;
+&lt;li&gt;Matti Tahvonen over on the Vaadin team put together this fantastic introduction to using Spring Data Neo4j, Spring Boot, and of &lt;a href="https://github.com/peholmst/vaadin4spring"&gt;course the Vaadin4Spring library&lt;/a&gt; that Petter Holmström and I started. To be fair, it's only usable because of Petter :) So usable, in fact, that &lt;a href="https://vaadin.com/blog/-/blogs/neo4j-spring-data-a-natural-fit-for-my-data"&gt;Matti was able to put together something beautiful  - &lt;em&gt;Bootiful&lt;/em&gt; - very quickly&lt;/a&gt;. Check it out! The application models (and visualizes!) data stored in Neo4j, so it's not just any old CRUD application, this is &lt;em&gt;very&lt;/em&gt; cool! &lt;/li&gt;
+&lt;li&gt;
+&lt;a href="http://blog.gopivotal.com/cloud-foundry-pivotal/products/pivotal-cf-1-2-now-available-including-support-for-vmware-hybrid-cloud-service#sthash.fsUXMfV7.dpuf"&gt;CloudFoundry ninja James Bayer  announced the new  Pivotal CF 1.2&lt;/a&gt;, which now supports VMWare's Hybrid Cloud Service, initial auditing and autoscaling, new data services (Redis, MongoDB, Neo4j, RiakCS, and ElasticSearch are all available!), and a &lt;em&gt;lot&lt;/em&gt; more!  &lt;/li&gt;
+&lt;li&gt;Curiousity piqued? Want to learn more about CloudFoundry, the open-source Paas from Pivotal? Check out this epic video on how to &lt;a href="http://spring.io/blog/2014/05/27/springone2gx-2013-replay-build-your-very-own-private-cloud-foundry"&gt;setup your &lt;em&gt;own&lt;/em&gt; Paas using BOSH from SpringOne2GX 2013&lt;/a&gt;. And hear about how other teams acutally did it in the SprignOne2GX replay - &lt;a href="http://spring.io/blog/2014/05/27/springone2gx-2013-replay-free-yourself-with-cloudfoundry-a-private-cloud-experience"&gt;Free Yourself with CloudFoundry: A Private Cloud Experience&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Data ninja Thomas Risberg just announced the new &lt;a href="http://spring.io/blog/2014/05/27/spring-for-apache-hadoop-2-0-rc4-released"&gt;Spring for Apache Hadoop RC4 release&lt;/a&gt;, which is awesome! The new release improves upon the Spring YARN integration. YARN, of course, is the distributed, generic runtime on top of which Hadoop 2.0's very specific map/reduce support now sits. You can use YARN for job distribution of your own, however. You might, for example, use YARN to split up Spring Batch workloads. In the new example, Janne Valkealahti demonstrates a simple Spring Boot-powered Spring YARN component. It's &lt;em&gt;amazing&lt;/em&gt; how concise this stuff is now!  &lt;/li&gt;
+&lt;li&gt;Want to learn more about Janne Valkealahti, the mad (data) scientist behind our Spring YARN support? &lt;a href="http://blog.gopivotal.com/pivotal/pivotal-people/pivotal-people-janne-valkealahti-spring-yarn-master-and-open-source-software-engineer"&gt;Check out this &lt;em&gt;Pivotal People&lt;/em&gt; profile&lt;/a&gt;!&lt;/li&gt;
+&lt;li&gt;Spring Data lead &lt;a href="http://spring.io/blog/2014/05/21/what-s-new-in-spring-data-dijkstra"&gt;Oliver Gierke does a nice job introducing the new hotness in Spring Data Dijkstra&lt;/a&gt;, the new Spring Data umbrella release. This release includes Java 8 &lt;code&gt;Optional&lt;/code&gt; support, asynchronous repository method invocations, and more. &lt;/li&gt;
+&lt;li&gt;Spring Security lead Rob Winch has just two small, bugfixe releases:   &lt;a href="http://spring.io/blog/2014/05/21/spring-ldap-2-0-2-released"&gt;  Spring LDAP 2.0.2&lt;/a&gt;,    and &lt;a href="https://spring.io/blog/2014/05/21/spring-security-3-2-4-released"&gt;Spring Security 3.2.4&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Spring Web Services lead Arjen Poutsma has &lt;a href="http://spring.io/blog/2014/05/22/spring-web-services-2-2-0-released"&gt;just announced Spring Web Services 2.2.0, which now features a Java configuration API&lt;/a&gt; and much more. &lt;/li&gt;
+&lt;li&gt;Let me take a moment to remind everyone: Java configuration is everywhere! Spring framework, Boot, Data, Security, MVC, Integration, Batch, Social, and much more, all offer as-rich-as-the-XML Java configuration integrations. In the case of Boot, Java configuration is the &lt;em&gt;only&lt;/em&gt; out-of-the-box option, though of course you can use XML if you'd like. It's just.. not expected.&lt;/li&gt;
+&lt;li&gt;Spring Security lead &lt;em&gt;also&lt;/em&gt; blogged about &lt;a href="http://spring.io/blog/2014/05/23/preview-spring-security-test-web-security"&gt;using Spring Security Test to handle web security&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Want to write your own Spring Boot starter? Check out this example from Spring ninja &lt;a href="https://github.com/snicoll/scratches/commit/1caaf370442cbc1a3a8f6e38b156c808ed2682dd"&gt;Stephane Nicoll on how to provide a HornetQ &lt;em&gt;starter&lt;/em&gt; for Spring Boot&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;At long last, &lt;a href="http://www.gabiaxel.com/2014/05/spring-social-google-100-reaches.html"&gt;Spring Social Google 1.0.0.GA has been released&lt;/a&gt;!  Congratulations, Gabriel, on all the work required to arrive here. I like the easy-to-use example, too.&lt;/li&gt;
+&lt;li&gt;Arnaud Giuliani  has put together a very cool &lt;a href="http://www.ekito.fr/people/?p=4816"&gt;look at using GWT with Spring Boot&lt;/a&gt;. Nicely done, Arnaud!&lt;/li&gt;
+&lt;li&gt;Netflix &lt;a href="http://twitter.com/TomasLin"&gt;engineer Tomas Lin&lt;/a&gt; tweeted a link to a   convenient &lt;a href="https://github.com/jirutka/spring-rest-exception-handler"&gt;Spring MVC exception handler&lt;/a&gt; for REST APIs. This is one (fine) way to approach the problem. As an alternative, I'd suggest you take a look at [using Spring HATEOAS' &lt;code&gt;VndError&lt;/code&gt;(&lt;code&gt;s&lt;/code&gt;) support]a).&lt;/li&gt;
+&lt;/ol&gt;</content>
+  </entry>
+  <entry>
+    <title>Webinar: Spring Integration Done Boot-ifully</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/05/27/webinar-spring-integration-done-boot-ifully" />
+    <category term="news" label="News and Events" />
+    <author>
+      <name>Pieter Humphrey</name>
+    </author>
+    <id>tag:spring.io,2014-05-28:1601</id>
+    <updated>2014-05-27T21:46:00Z</updated>
+    <content type="html">&lt;p&gt;Speaker: Glenn Renfro &lt;/p&gt;
+
+&lt;p&gt;With the increase in the number of devices that emit information it has become ever more important to be able to retrieve this data and process accordingly. In response to this need, MQTT has become the defacto lightweight transport for connecting an "Internet of things". With that being said, how do your applications support for eventing, messaging, and scheduling? Utilizing Spring Boot and Spring Integration you will see how to create an application with a scheduler that will retrieve data from a web service, cleanse and emit the data via MQTT. Then we'll show you how to create an application also written using Spring Boot and Spring Integration, that will capture the MQTT events and record the results. From this discussion you can see how to use these tools and take advantage of them for your own big data projects as soon as you return to the office. &lt;/p&gt;
+
+&lt;p&gt;Tuesday, June 17th, 2014 3:00 pm BST Time (London, UTC+1) &lt;a href="http://play.gopivotal.com/OSS_Webinar_SpringIntegrationDoneBoot-ifully7AM_Register.html"&gt;Register&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Tuesday, June 17th, 2014 10:00 am Pacific Daylight Time (San Francisco, UTC-07:00) &lt;a href="http://play.gopivotal.com/OSS_Webinar_SpringIntegrationDoneBoot-ifully10AM_Register.html"&gt;Register&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Webinar: Spring Batch 3.0.0</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/05/27/webinar-spring-batch-3-0-0" />
+    <category term="news" label="News and Events" />
+    <author>
+      <name>Pieter Humphrey</name>
+    </author>
+    <id>tag:spring.io,2014-05-28:1600</id>
+    <updated>2014-05-27T21:44:00Z</updated>
+    <content type="html">&lt;p&gt;Speaker: Michael Minella &lt;/p&gt;
+
+&lt;p&gt;The Spring team is gearing up for a major rev of Spring Batch - Spring Batch 3.0.0 RC1 which introduces JSR-352 support, among other features. Adopting a Java EE standard that was directly based on Spring Batch to begin with is fortunately, fairly straightforward for us. JavaEE7 compliance updates and expands the scope of Spring Batch 3.0.0 to combine JavaEE7/352 compliance with years of Batch's battle-tested, proven-in-production codebase. Of course, there is a wealth of capability and features that go far beyond the specification into distributed processing and beyond. In this webinar, project lead Michael Minella will cover Spring Batch's implementation of JSR-352 as well as some of the new features in the 3.0 release. &lt;/p&gt;
+
+&lt;p&gt;Tuesday, June 10th, 2014 3:00 pm BST Time (London, UTC+1) &lt;a href="http://play.gopivotal.com/OSS_Webinar_SpringBatch3.0.07AM_Register.html"&gt;Register&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Tuesday, June 10th, 2014 10:00 am Pacific Daylight Time (San Francisco, UTC-07:00) &lt;a href="http://play.gopivotal.com/OSS_Webinar_SpringBatch3.0.010AM_Register.html"&gt;Register&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Webinar: Abstracting PaaS services to be portable with Spring Cloud</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/05/27/webinar-abstracting-paas-services-to-be-portable-with-spring-cloud" />
+    <category term="news" label="News and Events" />
+    <author>
+      <name>Pieter Humphrey</name>
+    </author>
+    <id>tag:spring.io,2014-05-28:1599</id>
+    <updated>2014-05-27T21:41:00Z</updated>
+    <content type="html">&lt;p&gt;Speaker: Ramnivas Laddad &lt;/p&gt;
+
+&lt;p&gt;Developing an application to a cloud platform involves working with a deployed application's environment and connecting to services. Spring Cloud, a new project, simplifies these tasks in a variety of cloud platforms including Cloud Foundry and Heroku. Spring Cloud makes it possible to deploy the same artifact (a war or a jar) to multiple cloud environments. It supports multiple clouds through the concept of Cloud Connector and provides out of the box implementation for Cloud Foundry and Heroku, and extension points for other cloud platforms. In this talk, we will introduce the Spring Cloud project, show how you can simplify configuring applications for cloud deployment, discuss its extensibility mechanism, and put it to good use by showing practical examples from the field. &lt;/p&gt;
+
+&lt;p&gt;Tuesday, June 3rd, 2014 3:00 pm BST Time (London, UTC+1) &lt;a href="http://play.gopivotal.com/OSS_Webinar_AbstractingPaaSServicesPortablewSpringCloud7AM_Register.html"&gt;Register&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Tuesday, June 3rd, 2014 10:00 am Pacific Daylight Time (San Francisco, UTC-07:00) &lt;a href="http://play.gopivotal.com/OSS_Webinar_AbstractingPaaSServicesPortablewSpringCloud10AM_Register.html"&gt;Register&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>SpringOne2GX 2013 Replay: Free Yourself with CloudFoundry: A Private Cloud Experience</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/05/27/springone2gx-2013-replay-free-yourself-with-cloudfoundry-a-private-cloud-experience" />
+    <category term="news" label="News and Events" />
+    <author>
+      <name>Pieter Humphrey</name>
+    </author>
+    <id>tag:spring.io,2014-05-27:1597</id>
+    <updated>2014-05-27T15:32:00Z</updated>
+    <content type="html">&lt;p&gt;Recorded at SpringOne2GX 2013 in Santa Clara, CA. &lt;/p&gt;
+
+&lt;p&gt;Speakers: Mike Heath, Shawn Nielsen, Mike Youngstrom - LDS Church &lt;/p&gt;
+
+&lt;p&gt;Cloud Foundry makes managing and deploying applications incredibly simple. However, deploying Cloud Foundry itself can be a challenging task. We will be sharing what we learned deploying Cloud Foundry and what it took to win over our organization. Learn from our experiences deploying Cloud Foundry with BOSH and integrating with our existing enterprise infrastructure. We will discuss: Developing and customizing Cloud Foundry while staying in sync with the open source repositories Building custom Cloud Foundry services using Java and Spring Improved gathering application diagnostics by simplifying JMX and remote debugging support in Cloud Foundry Enhanced security and auditability with application level firewalls Come learn from our successes as well as our mistakes.&lt;/p&gt;
+
+&lt;p&gt;Learn more about using CloudFoundry at: &lt;a href="http://www.cloudfoundry.com/use"&gt;http://www.cloudfoundry.com/use&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe width="560" height="315" src="//www.youtube.com/embed/mezHECXI-u0" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</content>
+  </entry>
+  <entry>
+    <title>SpringOne2GX 2013 Replay: Build Your Very Own Private Cloud Foundry</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/05/27/springone2gx-2013-replay-build-your-very-own-private-cloud-foundry" />
+    <category term="news" label="News and Events" />
+    <author>
+      <name>Pieter Humphrey</name>
+    </author>
+    <id>tag:spring.io,2014-05-27:1596</id>
+    <updated>2014-05-27T15:11:00Z</updated>
+    <content type="html">&lt;p&gt;Recorded at SpringOne2GX 2013 in Santa Clara, CA. &lt;/p&gt;
+
+&lt;p&gt;Speaker: Matt Stine &lt;/p&gt;
+
+&lt;p&gt;This session will focus on how you can build your very own Cloud Foundry private PaaS running in your own data center or on AWS or even on OpenStack on your own Mac mini. You will learn how the Cloud Foundry BOSH tool constructs a full Cloud Foundry instance from a bare bones virtual machine and continues to coordinate and manage the entire PaaS cloud once it is operational. If you want the convenience of developing against your own private custom PaaS within your company, then this session will give you all the steps you need to get started. &lt;/p&gt;
+
+&lt;p&gt;Learn more about using CloudFoundry at: &lt;a href="http://www.cloudfoundry.com/use"&gt;http://www.cloudfoundry.com/use&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe width="560" height="315" src="//www.youtube.com/embed/v85r4Hy3jbs" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Boot 1.1.0.M2 Available Now</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/05/27/spring-boot-1-1-0-m2-available-now" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Dave Syer</name>
+    </author>
+    <id>tag:spring.io,2014-05-27:1595</id>
+    <updated>2014-05-27T12:58:17Z</updated>
+    <content type="html">&lt;p&gt;Spring Boot 1.1.0.M2 is available now in the Spring repositories. There are quite a few new features and plenty of new &lt;a href="http://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle"&gt;documentation&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://beta.groovy-lang.org/docs/groovy-2.3.1/html/documentation/#_template_engines"&gt;Groovy Template&lt;/a&gt; and &lt;a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#view-velocity"&gt;Velocity&lt;/a&gt; support for MVC and offline rendering.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Big changes to the &lt;code&gt;HealthIndicator&lt;/code&gt; interface and the existing implementations, e.g. all database backends (like Mongo etc.) have a default &lt;code&gt;HealthIndicator&lt;/code&gt; and the Actuator aggregates them all up into a single readout.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Support for Spring Data Solr and Spring Data Gemfire, and upgrade to
+the Spring Data Dijkstra release train&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Support for multiple &lt;code&gt;DataSources&lt;/code&gt; through a convenient
+&lt;code&gt;DataSourceBuilder&lt;/code&gt; abstraction, plus a similar feature for JPA
+&lt;code&gt;EntityManagerFactories&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Upgrades to various new versions of existing dependencies,
+e.g. Spring Batch 3.0, Spring Security 3.2.4&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;My favourite new feature is the ability to add
+&lt;code&gt;@ConfigurationProperties&lt;/code&gt; to &lt;code&gt;@Beans&lt;/code&gt; directly (as opposed to at the
+type level). This enables you to bind external properties to 2
+instances of the same type, with different prefixes, e.g.&lt;/p&gt;
+
+&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="nd"&gt;@Bean&lt;/span&gt;
+&lt;span class="nd"&gt;@Primary&lt;/span&gt;
+&lt;span class="nd"&gt;@ConfigurationProperties&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;prefix&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"datasource.primary"&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+&lt;span class="kd"&gt;public&lt;/span&gt; &lt;span class="n"&gt;DataSource&lt;/span&gt; &lt;span class="nf"&gt;primaryDataSource&lt;/span&gt;&lt;span class="o"&gt;()&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;DataSourceBuilder&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;create&lt;/span&gt;&lt;span class="o"&gt;().&lt;/span&gt;&lt;span class="na"&gt;build&lt;/span&gt;&lt;span class="o"&gt;();&lt;/span&gt;
+&lt;span class="o"&gt;}&lt;/span&gt;
+
+&lt;span class="nd"&gt;@Bean&lt;/span&gt;
+&lt;span class="nd"&gt;@ConfigurationProperties&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;prefix&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"datasource.secondary"&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+&lt;span class="kd"&gt;public&lt;/span&gt; &lt;span class="n"&gt;DataSource&lt;/span&gt; &lt;span class="nf"&gt;secondaryDataSource&lt;/span&gt;&lt;span class="o"&gt;()&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;DataSourceBuilder&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;create&lt;/span&gt;&lt;span class="o"&gt;().&lt;/span&gt;&lt;span class="na"&gt;build&lt;/span&gt;&lt;span class="o"&gt;();&lt;/span&gt;
+&lt;span class="o"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;In this example we bind to two beans of the same type. The concrete
+type of those beans might be a Tomcat &lt;code&gt;DataSource&lt;/code&gt; or a HikariCP
+&lt;code&gt;DataSource&lt;/code&gt;, so this shows that you can also use
+&lt;code&gt;@ConfigurationProperties&lt;/code&gt; on &lt;code&gt;@Beans&lt;/code&gt; to bind to types that you don't
+control (and don't have &lt;code&gt;@ConfigurationProperties&lt;/code&gt; already).&lt;/p&gt;
+
+&lt;p&gt;We have many community members to thanks again for their contributions to this release (we are up to around 80 committers now, and there are others who help out with discussions and feedback). Keep up the good work! The plan is to get to RC1 next week and a GA release very soon after that, so please keep trying out the new features and send feedback via github.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring for Apache Hadoop 2.0 RC4 released</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/05/27/spring-for-apache-hadoop-2-0-rc4-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Thomas Risberg</name>
+    </author>
+    <id>tag:spring.io,2014-05-24:1591</id>
+    <updated>2014-05-27T07:12:00Z</updated>
+    <content type="html">&lt;p&gt;We are happy to announce that Spring for Apache Hadoop version 2.0 RC4 is now available. &lt;/p&gt;
+
+&lt;hr&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Now includes simplified support for building YARN applications&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We are getting close to a GA release of Spring for Apache Hadoop 2.0. Based on feedback from using the Spring Boot support for YARN in the Spring XD project, we have refined the programming model we use for developing YARN applications.&lt;/p&gt;
+
+&lt;h3&gt;
+&lt;a name="user-content-the-challenge" class="anchor" href="#the-challenge"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;The challenge&lt;/h3&gt;
+
+&lt;p&gt;We keep challenging &lt;a href="http://blog.gopivotal.com/pivotal/pivotal-people/pivotal-people-janne-valkealahti-spring-yarn-master-and-open-source-software-engineer"&gt;Janne&lt;/a&gt; to make the model simpler. The latest challenge was to make it possible to write a single Java source file plus one configuration file and keep it under 50 lines. I think we came pretty close:&lt;/p&gt;
+
+&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="nd"&gt;@ComponentScan&lt;/span&gt;
+&lt;span class="nd"&gt;@EnableAutoConfiguration&lt;/span&gt;
+&lt;span class="kd"&gt;public&lt;/span&gt; &lt;span class="kd"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;Application&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+
+    &lt;span class="kd"&gt;public&lt;/span&gt; &lt;span class="kd"&gt;static&lt;/span&gt; &lt;span class="kt"&gt;void&lt;/span&gt; &lt;span class="nf"&gt;main&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;String&lt;/span&gt;&lt;span class="o"&gt;[]&lt;/span&gt; &lt;span class="n"&gt;args&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+        &lt;span class="n"&gt;SpringApplication&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;run&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Application&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;args&lt;/span&gt;&lt;span class="o"&gt;);&lt;/span&gt;
+    &lt;span class="o"&gt;}&lt;/span&gt;
+
+    &lt;span class="nd"&gt;@YarnComponent&lt;/span&gt;
+    &lt;span class="nd"&gt;@Profile&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"container"&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+    &lt;span class="kd"&gt;public&lt;/span&gt; &lt;span class="kd"&gt;static&lt;/span&gt; &lt;span class="kd"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;HelloPojo&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+
+        &lt;span class="kd"&gt;private&lt;/span&gt; &lt;span class="kd"&gt;static&lt;/span&gt; &lt;span class="kd"&gt;final&lt;/span&gt; &lt;span class="n"&gt;Log&lt;/span&gt; &lt;span class="n"&gt;log&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;LogFactory&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;getLog&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;HelloPojo&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;);&lt;/span&gt;
+
+        &lt;span class="nd"&gt;@OnContainerStart&lt;/span&gt;
+        &lt;span class="kd"&gt;public&lt;/span&gt; &lt;span class="kt"&gt;void&lt;/span&gt; &lt;span class="nf"&gt;onStart&lt;/span&gt;&lt;span class="o"&gt;()&lt;/span&gt; &lt;span class="kd"&gt;throws&lt;/span&gt; &lt;span class="n"&gt;Exception&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+            &lt;span class="n"&gt;log&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;info&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"Hello from YARN!"&lt;/span&gt;&lt;span class="o"&gt;);&lt;/span&gt;
+        &lt;span class="o"&gt;}&lt;/span&gt;
+    &lt;span class="o"&gt;}&lt;/span&gt;
+
+&lt;span class="o"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class="highlight highlight-yml"&gt;&lt;pre&gt;&lt;span class="l-Scalar-Plain"&gt;spring&lt;/span&gt;&lt;span class="p-Indicator"&gt;:&lt;/span&gt;
+    &lt;span class="l-Scalar-Plain"&gt;hadoop&lt;/span&gt;&lt;span class="p-Indicator"&gt;:&lt;/span&gt;
+        &lt;span class="l-Scalar-Plain"&gt;fsUri&lt;/span&gt;&lt;span class="p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l-Scalar-Plain"&gt;hdfs://localhost:8020&lt;/span&gt;
+        &lt;span class="l-Scalar-Plain"&gt;resourceManagerHost&lt;/span&gt;&lt;span class="p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l-Scalar-Plain"&gt;localhost&lt;/span&gt;
+    &lt;span class="l-Scalar-Plain"&gt;yarn&lt;/span&gt;&lt;span class="p-Indicator"&gt;:&lt;/span&gt;
+        &lt;span class="l-Scalar-Plain"&gt;appName&lt;/span&gt;&lt;span class="p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l-Scalar-Plain"&gt;yarn-demo&lt;/span&gt;
+        &lt;span class="l-Scalar-Plain"&gt;applicationDir&lt;/span&gt;&lt;span class="p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l-Scalar-Plain"&gt;/apps/yarn-demo/&lt;/span&gt;
+        &lt;span class="l-Scalar-Plain"&gt;client&lt;/span&gt;&lt;span class="p-Indicator"&gt;:&lt;/span&gt;
+            &lt;span class="l-Scalar-Plain"&gt;startup&lt;/span&gt;&lt;span class="p-Indicator"&gt;:&lt;/span&gt;
+                &lt;span class="l-Scalar-Plain"&gt;action&lt;/span&gt;&lt;span class="p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l-Scalar-Plain"&gt;submit&lt;/span&gt;
+            &lt;span class="l-Scalar-Plain"&gt;localizer&lt;/span&gt;&lt;span class="p-Indicator"&gt;:&lt;/span&gt;
+                &lt;span class="l-Scalar-Plain"&gt;patterns&lt;/span&gt;&lt;span class="p-Indicator"&gt;:&lt;/span&gt;
+                  &lt;span class="p-Indicator"&gt;-&lt;/span&gt; &lt;span class="s"&gt;"yarn-demo*jar"&lt;/span&gt;
+            &lt;span class="l-Scalar-Plain"&gt;files&lt;/span&gt;&lt;span class="p-Indicator"&gt;:&lt;/span&gt;
+              &lt;span class="p-Indicator"&gt;-&lt;/span&gt; &lt;span class="s"&gt;"file:target/yarn-demo-0.1.0.jar"&lt;/span&gt;
+            &lt;span class="l-Scalar-Plain"&gt;launchcontext&lt;/span&gt;&lt;span class="p-Indicator"&gt;:&lt;/span&gt;
+                &lt;span class="l-Scalar-Plain"&gt;archiveFile&lt;/span&gt;&lt;span class="p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l-Scalar-Plain"&gt;yarn-demo-0.1.0.jar&lt;/span&gt;
+        &lt;span class="l-Scalar-Plain"&gt;appmaster&lt;/span&gt;&lt;span class="p-Indicator"&gt;:&lt;/span&gt;
+            &lt;span class="l-Scalar-Plain"&gt;localizer&lt;/span&gt;&lt;span class="p-Indicator"&gt;:&lt;/span&gt;
+                &lt;span class="l-Scalar-Plain"&gt;patterns&lt;/span&gt;&lt;span class="p-Indicator"&gt;:&lt;/span&gt;
+                  &lt;span class="p-Indicator"&gt;-&lt;/span&gt; &lt;span class="s"&gt;"yarn-demo*jar"&lt;/span&gt;
+            &lt;span class="l-Scalar-Plain"&gt;containerCount&lt;/span&gt;&lt;span class="p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l-Scalar-Plain"&gt;1&lt;/span&gt;
+            &lt;span class="l-Scalar-Plain"&gt;launchcontext&lt;/span&gt;&lt;span class="p-Indicator"&gt;:&lt;/span&gt;
+                &lt;span class="l-Scalar-Plain"&gt;archiveFile&lt;/span&gt;&lt;span class="p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l-Scalar-Plain"&gt;yarn-demo-0.1.0.jar&lt;/span&gt;
+                &lt;span class="l-Scalar-Plain"&gt;arguments&lt;/span&gt;&lt;span class="p-Indicator"&gt;:&lt;/span&gt;
+                    &lt;span class="l-Scalar-Plain"&gt;--spring.profiles.active&lt;/span&gt;&lt;span class="p-Indicator"&gt;:&lt;/span&gt; &lt;span class="l-Scalar-Plain"&gt;container&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Using the &lt;code&gt;spring-boot-maven-plugin&lt;/code&gt; the build creates a single jar containing all the dependencies. This jar is then uploaded to HDFS and localized when the application is submitted to YARN. The &lt;code&gt;@Profile("container")&lt;/code&gt; annotation makes sure this bean is only used for the actual YARN container and not when the YARN client or YARN appmaster is executed.&lt;/p&gt;
+
+&lt;p&gt;The source code, including a Maven build script, and instructions for running the app are available in &lt;a href="https://github.com/trisberg/yarn-demo"&gt;my GitHub repo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;
+&lt;a name="user-content-the-release" class="anchor" href="#the-release"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;The release&lt;/h3&gt;
+
+&lt;p&gt;The default distribution for the Spring for Apache Hadoop 2.0 releases is the current Apache Hadoop 2 stable release which is 2.2.0.&lt;/p&gt;
+
+&lt;p&gt;We continue to provide version specific artifacts with their respective transitive dependencies in the Spring IO milestone repository:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2.0.0.RC4 (default - Apache Hadoop stable 2.2.0)&lt;/li&gt;
+&lt;li&gt;2.0.0.RC4-hadoop12 (Apache Hadoop stable 1.2.1)&lt;/li&gt;
+&lt;li&gt;2.0.0.RC4-phd1 (Pivotal HD 1.1)&lt;/li&gt;
+&lt;li&gt;2.0.0.RC4-phd20 (Pivotal HD 2.0)&lt;/li&gt;
+&lt;li&gt;2.0.0.RC4-cdh4 (Cloudera CDH4 MR1)&lt;/li&gt;
+&lt;li&gt;2.0.0.RC4-cdh5 (Cloudera CDH5 YARN)&lt;/li&gt;
+&lt;li&gt;2.0.0.RC4-hdp13 (Hortonworks HDP 1.3)&lt;/li&gt;
+&lt;li&gt;2.0.0.RC4-hdp20 (Hortonworks HDP 2.0)&lt;/li&gt;
+&lt;li&gt;2.0.0.RC4-hdp21 (Hortonworks HDP 2.1)&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;For instructions on how to build with these versions see the &lt;a href="https://github.com/spring-projects/spring-hadoop/wiki#building-using-supported-distributions"&gt;project wiki&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For more project specific information please see the &lt;a href="http://projects.spring.io/spring-hadoop/"&gt;project page&lt;/a&gt;.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Preview Spring Security Test: HtmlUnit</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/05/23/preview-spring-security-test-htmlunit" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Rob Winch</name>
+    </author>
+    <id>tag:spring.io,2014-05-23:1590</id>
+    <updated>2014-05-23T21:56:27Z</updated>
+    <content type="html">&lt;p&gt;In my &lt;a href="http://spring.io/blog/2014/05/07/preview-spring-security-test-method-security"&gt;previous blog&lt;/a&gt; we explored how we can use the testing support with Spring MVC Test. We will now see how the same support works with &lt;a href="https://github.com/spring-projects/spring-test-mvc-htmlunit"&gt;Spring Test MVC HtmlUnit&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;div class="callout"&gt;
+&lt;div class="callout-title"&gt;Minimum Versions&lt;/div&gt;
+The Spring Security testing support does not work with spring-test-mvc-htmlunit-1.0.0.M1.jar. Instead, you just use the latest snapshot. This is due to some slight modifications to allow Spring Security and the MockMvcHtmlUnitDriver to work together.
+
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;h2&gt;
+&lt;a name="user-content-setting-up-htmlunit-and-spring-security" class="anchor" href="#setting-up-htmlunit-and-spring-security"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Setting Up HtmlUnit and Spring Security&lt;/h2&gt;
+
+&lt;p&gt;The setup for &lt;code&gt;HtmlUnit&lt;/code&gt; and Spring Security integration is very similar to that of &lt;a href="https://github.com/spring-projects/spring-test-mvc-htmlunit#creating-mockmvc"&gt;using Spring MVC Test and HtmlUnit&lt;/a&gt;. Below we highlight the differences:&lt;/p&gt;
+
+&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="nd"&gt;@RunWith&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;SpringJUnit4ClassRunner&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+&lt;span class="nd"&gt;@ContextConfiguration&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;classes&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;&lt;span class="n"&gt;WebMvcConfig&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;WebSecurityConfig&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;MockDataConfig&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;})&lt;/span&gt;
+&lt;span class="nd"&gt;@WebAppConfiguration&lt;/span&gt;
+&lt;span class="nd"&gt;@TestExecutionListeners&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;listeners&lt;/span&gt;&lt;span class="o"&gt;={&lt;/span&gt;&lt;span class="n"&gt;ServletTestExecutionListener&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;
+        &lt;span class="n"&gt;DependencyInjectionTestExecutionListener&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;
+        &lt;span class="n"&gt;DirtiesContextTestExecutionListener&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;
+        &lt;span class="n"&gt;TransactionalTestExecutionListener&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;
+        &lt;span class="n"&gt;WithSecurityContextTestExcecutionListener&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;})&lt;/span&gt;
+&lt;span class="nd"&gt;@WithMockUser&lt;/span&gt;
+&lt;span class="kd"&gt;public&lt;/span&gt; &lt;span class="kd"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;MockMvcHtmlUnitCreateMessageTest&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+  &lt;span class="nd"&gt;@Autowired&lt;/span&gt;
+  &lt;span class="kd"&gt;private&lt;/span&gt; &lt;span class="n"&gt;Filter&lt;/span&gt; &lt;span class="n"&gt;springSecurityFilterChain&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt;
+
+  &lt;span class="nd"&gt;@Autowired&lt;/span&gt;
+  &lt;span class="kd"&gt;private&lt;/span&gt; &lt;span class="n"&gt;WebApplicationContext&lt;/span&gt; &lt;span class="n"&gt;context&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt;
+
+  &lt;span class="kd"&gt;private&lt;/span&gt; &lt;span class="n"&gt;WebClient&lt;/span&gt; &lt;span class="n"&gt;webClient&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt;
+
+
+  &lt;span class="nd"&gt;@Before&lt;/span&gt;
+  &lt;span class="kd"&gt;public&lt;/span&gt; &lt;span class="kt"&gt;void&lt;/span&gt; &lt;span class="nf"&gt;setup&lt;/span&gt;&lt;span class="o"&gt;()&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+      &lt;span class="n"&gt;MockMvc&lt;/span&gt; &lt;span class="n"&gt;mockMvc&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;MockMvcBuilders&lt;/span&gt;
+              &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;webAppContextSetup&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;context&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+              &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;addFilters&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;springSecurityFilterChain&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+              &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;build&lt;/span&gt;&lt;span class="o"&gt;();&lt;/span&gt;
+      &lt;span class="n"&gt;driver&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="k"&gt;new&lt;/span&gt; &lt;span class="n"&gt;MockMvcHtmlUnitDriver&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;mockMvc&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="o"&gt;);&lt;/span&gt;
+  &lt;span class="o"&gt;}&lt;/span&gt;
+&lt;span class="o"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;div class="callout"&gt;
+&lt;div class="callout-title"&gt;Source Code&lt;/div&gt;
+You can find the complete source code for this blog  &lt;a href="https://github.com/rwinch/spring-security-test-blog"&gt;on github&lt;/a&gt;
+
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The first difference is to ensure we add our Security configuration, &lt;code&gt;WebSecurityConfig&lt;/code&gt;, to the &lt;code&gt;@ContextConfiguration&lt;/code&gt;
+&lt;/li&gt;
+&lt;li&gt;The next difference is to ensure to add the &lt;code&gt;WithSecurityContextTestExcecutionListener&lt;/code&gt; just as we did when &lt;a href="https://spring.io/blog/2014/05/07/preview-spring-security-test-method-security#user-content-security-test-setup"&gt;testing method based security&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;We then need to use a Spring Security &lt;code&gt;WithSecurityContext&lt;/code&gt; annotation. In this instance we used &lt;a href="https://spring.io/blog/2014/05/07/preview-spring-security-test-method-security#user-content-withmockuser"&gt;@WithMockUser&lt;/a&gt;, but any of the annotations used in the method security section can be leveraged.&lt;/li&gt;
+&lt;li&gt;We need to get the &lt;code&gt;springSecurityFilterChain&lt;/code&gt; and add it to the &lt;code&gt;MockMvcBuilders&lt;/code&gt; filters.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Now we can run our tests assuming we are authenticated with the username "user" and the role "ROLE_USER". Of course, just as we did in method security, we could easily change the annotation to reflect the user we want to run as.&lt;/p&gt;
+
+&lt;p&gt;Without needing to explicitly authenticate before our tests we can be sure to isolate our tests more easily. By simply running as a user we drastically simplify testing (this is especially true when authentication is complex like a SSO workflow). We also drastically speed up our tests by eliminating the need to actually authenticate. What's more, we can integrate Spring Security Test support with &lt;a href="https://github.com/spring-projects/spring-test-mvc-htmlunit#mockmvc-and-webdriver"&gt;HtmlUnit/WebDriver&lt;/a&gt; or &lt;a href="https://github.com/spring-projects/spring-test-mvc-htmlunit#mockmvc-and-geb"&gt;HtmlUnit/Geb&lt;/a&gt; using the same steps outlined above.&lt;/p&gt;
+
+&lt;h2&gt;
+&lt;a name="user-content-conclusion" class="anchor" href="#conclusion"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;We have now gone over how Spring Security Testing support can make testing of method security, web security, and HtmlUnit based testing easier. We hope you enjoyed this blog series.&lt;/p&gt;
+
+&lt;p&gt;If you have feedback on this blog series or the Spring Security Test support, I encourage you to reach out via &lt;a href="https://jira.spring.io/browse/SEC%22"&gt;JIRA&lt;/a&gt;, via the comments section, or ping me on twitter &lt;a href="https://twitter.com/rob_winch"&gt;@rob_winch&lt;/a&gt;. Of course the best feedback comes in the form of &lt;a href="https://github.com/spring-projects/spring-security/blob/master/CONTRIBUTING.md"&gt;contributions&lt;/a&gt;.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Preview Spring Security Test: Web Security</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/05/23/preview-spring-security-test-web-security" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Rob Winch</name>
+    </author>
+    <id>tag:spring.io,2014-05-23:1589</id>
+    <updated>2014-05-23T15:56:00Z</updated>
+    <content type="html">&lt;p&gt;In my &lt;a href="http://spring.io/blog/2014/05/07/preview-spring-security-test-method-security"&gt;previous blog&lt;/a&gt; we demonstrated how the new Spring Security testing support can ease testing method based security. In this blog we will explore how we can use the testing support with Spring MVC Test.&lt;/p&gt;
+
+&lt;h2&gt;
+&lt;a name="user-content-setting-up-mockmvc-and-spring-security" class="anchor" href="#setting-up-mockmvc-and-spring-security"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Setting Up MockMvc and Spring Security&lt;/h2&gt;
+
+&lt;p&gt;In order to use Spring Security with Spring MVC Test it is necessary to add the Spring Security &lt;code&gt;FilterChainProxy&lt;/code&gt; as a &lt;code&gt;Filter&lt;/code&gt;. For example:&lt;/p&gt;
+
+&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="nd"&gt;@RunWith&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;SpringJUnit4ClassRunner&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+&lt;span class="nd"&gt;@ContextConfiguration&lt;/span&gt;
+&lt;span class="nd"&gt;@WebAppConfiguration&lt;/span&gt;
+&lt;span class="kd"&gt;public&lt;/span&gt; &lt;span class="kd"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;CsrfShowcaseTests&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+
+  &lt;span class="nd"&gt;@Autowired&lt;/span&gt;
+  &lt;span class="kd"&gt;private&lt;/span&gt; &lt;span class="n"&gt;WebApplicationContext&lt;/span&gt; &lt;span class="n"&gt;context&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt;
+
+  &lt;span class="nd"&gt;@Autowired&lt;/span&gt;
+  &lt;span class="kd"&gt;private&lt;/span&gt; &lt;span class="n"&gt;Filter&lt;/span&gt; &lt;span class="n"&gt;springSecurityFilterChain&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt;
+
+  &lt;span class="kd"&gt;private&lt;/span&gt; &lt;span class="n"&gt;MockMvc&lt;/span&gt; &lt;span class="n"&gt;mvc&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt;
+
+  &lt;span class="nd"&gt;@Before&lt;/span&gt;
+  &lt;span class="kd"&gt;public&lt;/span&gt; &lt;span class="kt"&gt;void&lt;/span&gt; &lt;span class="nf"&gt;setup&lt;/span&gt;&lt;span class="o"&gt;()&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+      &lt;span class="n"&gt;mvc&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;MockMvcBuilders&lt;/span&gt;
+              &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;webAppContextSetup&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;context&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+              &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;addFilters&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;springSecurityFilterChain&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+              &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;build&lt;/span&gt;&lt;span class="o"&gt;();&lt;/span&gt;
+  &lt;span class="o"&gt;}&lt;/span&gt;
+
+  &lt;span class="o"&gt;...&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;div class="callout"&gt;
+&lt;div class="callout-title"&gt;Source Code&lt;/div&gt;
+You can find the complete source code for this blog series &lt;a href="https://github.com/rwinch/spring-security-test-blog"&gt;on github&lt;/a&gt;
+
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;h2&gt;
+&lt;a name="user-content-securitymockmvcrequestpostprocessors" class="anchor" href="#securitymockmvcrequestpostprocessors"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;SecurityMockMvcRequestPostProcessors&lt;/h2&gt;
+
+&lt;p&gt;Spring MVC Test provides a convenient interface called a &lt;code&gt;RequestPostProcessor&lt;/code&gt; that can be used to modify a request. Spring Security provides a number of &lt;code&gt;RequestPostProcessor&lt;/code&gt; implementations that make testing easier. In order to use Spring Security's &lt;code&gt;RequestPostProcessor&lt;/code&gt; implementations ensure the following static import is used:&lt;/p&gt;
+
+&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;static&lt;/span&gt; &lt;span class="n"&gt;org&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;springframework&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;security&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;test&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;web&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;servlet&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;request&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;SecurityMockMvcRequestPostProcessors&lt;/span&gt;&lt;span class="o"&gt;.*;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;
+&lt;a name="user-content-testing-with-csrf-protection" class="anchor" href="#testing-with-csrf-protection"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Testing with CSRF Protection&lt;/h3&gt;
+
+&lt;p&gt;When testing any non safe HTTP methods and using Spring Security's CSRF protection, you must be sure to include a valid CSRF Token in the request. Prior to the Spring Security testing support this was quite challenging. Now you can specify a valid CSRF token as a request parameter using the following:&lt;/p&gt;
+
+&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="n"&gt;mvc&lt;/span&gt;
+    &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;perform&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;post&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"/"&lt;/span&gt;&lt;span class="o"&gt;).&lt;/span&gt;&lt;span class="na"&gt;with&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;csrf&lt;/span&gt;&lt;span class="o"&gt;()))&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;If you like you can include CSRF token in the header instead:&lt;/p&gt;
+
+&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="n"&gt;mvc&lt;/span&gt;
+    &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;perform&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;post&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"/"&lt;/span&gt;&lt;span class="o"&gt;).&lt;/span&gt;&lt;span class="na"&gt;with&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;csrf&lt;/span&gt;&lt;span class="o"&gt;().&lt;/span&gt;&lt;span class="na"&gt;asHeader&lt;/span&gt;&lt;span class="o"&gt;()))&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;You can also test providing an invalid CSRF token using the following:&lt;/p&gt;
+
+&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="n"&gt;mvc&lt;/span&gt;
+    &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;perform&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;post&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"/"&lt;/span&gt;&lt;span class="o"&gt;).&lt;/span&gt;&lt;span class="na"&gt;with&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;csrf&lt;/span&gt;&lt;span class="o"&gt;().&lt;/span&gt;&lt;span class="na"&gt;useInvalidToken&lt;/span&gt;&lt;span class="o"&gt;()))&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;
+&lt;a name="user-content-running-a-test-as-a-user" class="anchor" href="#running-a-test-as-a-user"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Running a Test as a User&lt;/h3&gt;
+
+&lt;p&gt;It is often desirable to run tests as a specific user. Prior to the Spring Security testing support this was challenging in web based tests since the &lt;code&gt;SecurityContextHolder&lt;/code&gt; is modified by the &lt;code&gt;SecurityContextRepositoryFilter&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;There are now two simple ways of populating the user:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#user-content-populating-a-test-user-with-a-requestpostprocessor"&gt;Populating a Test User with a RequestPostProcessor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#user-content-populating-a-test-user-with-annotations"&gt;Populating a Test User with Annotations&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;div class="callout"&gt;
+&lt;div class="callout-title"&gt;NOTE&lt;/div&gt;
+
+The testing support to run as a current user does not currently work when using Spring Security's stateless mode. This is being tracked at &lt;a href="https://jira.spring.io/browse/SEC-2593"&gt;SEC-2593&lt;/a&gt;.
+
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;h4&gt;
+&lt;a name="user-content-populating-a-test-user-with-a-requestpostprocessor" class="anchor" href="#populating-a-test-user-with-a-requestpostprocessor"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Populating a Test User with a RequestPostProcessor&lt;/h4&gt;
+
+&lt;p&gt;There are a number of options available to populate a test user. For example, the following will run as a user (which does not need to exist) with the username "user", the password "password", and the role "ROLE_USER":&lt;/p&gt;
+
+&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="n"&gt;mvc&lt;/span&gt;
+    &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;perform&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"/"&lt;/span&gt;&lt;span class="o"&gt;).&lt;/span&gt;&lt;span class="na"&gt;with&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"user"&lt;/span&gt;&lt;span class="o"&gt;)))&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;You can easily make customizations. For example, the following will run as a user (which does not need to exist) with the username "admin", the password "pass", and the roles "ROLE_USER" and "ROLE_ADMIN".&lt;/p&gt;
+
+&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="n"&gt;mvc&lt;/span&gt;
+    &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;perform&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"/admin"&lt;/span&gt;&lt;span class="o"&gt;).&lt;/span&gt;&lt;span class="na"&gt;with&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"admin"&lt;/span&gt;&lt;span class="o"&gt;).&lt;/span&gt;&lt;span class="na"&gt;password&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"pass"&lt;/span&gt;&lt;span class="o"&gt;).&lt;/span&gt;&lt;span class="na"&gt;roles&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"USER"&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;&lt;span class="s"&gt;"ADMIN"&lt;/span&gt;&lt;span class="o"&gt;)))&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;If you have a custom &lt;code&gt;UserDetails&lt;/code&gt; that you would like to use, you can easily specify that as well. For example, the following will use the specified &lt;code&gt;UserDetails&lt;/code&gt; (which does not need to exist) to run with a &lt;code&gt;UsernamePasswordAuthenticationToken&lt;/code&gt; that has a principal of the specified &lt;code&gt;UserDetails&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="n"&gt;mvc&lt;/span&gt;
+    &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;perform&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"/"&lt;/span&gt;&lt;span class="o"&gt;).&lt;/span&gt;&lt;span class="na"&gt;with&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;userDetails&lt;/span&gt;&lt;span class="o"&gt;)))&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;If you want a custom &lt;code&gt;Authentication&lt;/code&gt; (which does not need to exist) you can do so using the following:&lt;/p&gt;
+
+&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="n"&gt;mvc&lt;/span&gt;
+    &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;perform&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"/"&lt;/span&gt;&lt;span class="o"&gt;).&lt;/span&gt;&lt;span class="na"&gt;with&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;authentication&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;authentication&lt;/span&gt;&lt;span class="o"&gt;)))&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;You can even customize the &lt;code&gt;SecurityContext&lt;/code&gt; using the following:&lt;/p&gt;
+
+&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="n"&gt;mvc&lt;/span&gt;
+    &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;perform&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"/"&lt;/span&gt;&lt;span class="o"&gt;).&lt;/span&gt;&lt;span class="na"&gt;with&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;securityContext&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;securityContext&lt;/span&gt;&lt;span class="o"&gt;)))&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;We can also ensure to run as a specific user for every request by using &lt;code&gt;MockMvcBuilders&lt;/code&gt;'s default request. For example, the following will run as a user (which does not need to exist) with the username "admin", the password "password", and the role "ROLE_ADMIN":&lt;/p&gt;
+
+&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="n"&gt;mvc&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;MockMvcBuilders&lt;/span&gt;
+        &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;webAppContextSetup&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;context&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+        &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;defaultRequest&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"/"&lt;/span&gt;&lt;span class="o"&gt;).&lt;/span&gt;&lt;span class="na"&gt;with&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"user"&lt;/span&gt;&lt;span class="o"&gt;).&lt;/span&gt;&lt;span class="na"&gt;roles&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"ADMIN"&lt;/span&gt;&lt;span class="o"&gt;)))&lt;/span&gt;
+        &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;addFilters&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;springSecurityFilterChain&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+        &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;build&lt;/span&gt;&lt;span class="o"&gt;();&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;If you find you are using the same user in many of your tests, it is recommended to move the user to a method. For example, you can specify the following in your own class named &lt;code&gt;CustomSecurityMockMvcRequestPostProcessors&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="kd"&gt;public&lt;/span&gt; &lt;span class="kd"&gt;static&lt;/span&gt; &lt;span class="n"&gt;RequestPostProcessor&lt;/span&gt; &lt;span class="nf"&gt;rob&lt;/span&gt;&lt;span class="o"&gt;()&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="nf"&gt;user&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"rob"&lt;/span&gt;&lt;span class="o"&gt;).&lt;/span&gt;&lt;span class="na"&gt;roles&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"ADMIN"&lt;/span&gt;&lt;span class="o"&gt;);&lt;/span&gt;
+&lt;span class="o"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Now you can perform a static import on &lt;code&gt;SecurityMockMvcRequestPostProcessors&lt;/code&gt; and use that within your tests:&lt;/p&gt;
+
+&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;static&lt;/span&gt; &lt;span class="n"&gt;sample&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;CustomSecurityMockMvcRequestPostProcessors&lt;/span&gt;&lt;span class="o"&gt;.*;&lt;/span&gt;
+
+&lt;span class="o"&gt;...&lt;/span&gt;
+
+&lt;span class="n"&gt;mvc&lt;/span&gt;
+    &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;perform&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"/"&lt;/span&gt;&lt;span class="o"&gt;).&lt;/span&gt;&lt;span class="na"&gt;with&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;rob&lt;/span&gt;&lt;span class="o"&gt;()))&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h4&gt;
+&lt;a name="user-content-populating-a-test-user-with-annotations" class="anchor" href="#populating-a-test-user-with-annotations"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Populating a Test User with Annotations&lt;/h4&gt;
+
+&lt;p&gt;As an alternative to using a &lt;code&gt;RequestPostProcessor&lt;/code&gt; to create your user, you can use annotations described in my previous &lt;a href="http://spring.io/blog/2014/05/07/preview-spring-security-test-method-security"&gt;blog post&lt;/a&gt;. However, for this to work, you must specify a &lt;code&gt;RequestPostProcessor&lt;/code&gt; runs the request with the user from the annotations as shown below:&lt;/p&gt;
+
+&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="n"&gt;mvc&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;MockMvcBuilders&lt;/span&gt;
+        &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;webAppContextSetup&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;context&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+        &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;addFilters&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;springSecurityFilterChain&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+        &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;defaultRequest&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"/"&lt;/span&gt;&lt;span class="o"&gt;).&lt;/span&gt;&lt;span class="na"&gt;with&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;testSecurityContext&lt;/span&gt;&lt;span class="o"&gt;()))&lt;/span&gt;
+        &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;build&lt;/span&gt;&lt;span class="o"&gt;();&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;div class="callout"&gt;
+&lt;div class="callout-title"&gt;NOTE&lt;/div&gt;
+
+Do not forget to specify the &lt;code&gt;WithSecurityContextTestExcecutionListener&lt;/code&gt; as described in the previous blog.
+
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;Now you can run a test with any of the approaches described in Method Based Security Testing. For example, the following will run the test with the user with username "user", password "password", and role "ROLE_USER":&lt;/p&gt;
+
+&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="nd"&gt;@Test&lt;/span&gt;
+&lt;span class="nd"&gt;@WithMockUser&lt;/span&gt;
+&lt;span class="kd"&gt;public&lt;/span&gt; &lt;span class="kt"&gt;void&lt;/span&gt; &lt;span class="nf"&gt;requestProtectedUrlWithUser&lt;/span&gt;&lt;span class="o"&gt;()&lt;/span&gt; &lt;span class="kd"&gt;throws&lt;/span&gt; &lt;span class="n"&gt;Exception&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+  &lt;span class="n"&gt;mvc&lt;/span&gt;
+      &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;perform&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"/"&lt;/span&gt;&lt;span class="o"&gt;))&lt;/span&gt;
+      &lt;span class="o"&gt;...&lt;/span&gt;
+&lt;span class="o"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Alternatively, the following will run the test with the user with username "user", password "password", and role "ROLE_ADMIN":&lt;/p&gt;
+
+&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="nd"&gt;@Test&lt;/span&gt;
+&lt;span class="nd"&gt;@WithMockUser&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;roles&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"ADMIN"&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+&lt;span class="kd"&gt;public&lt;/span&gt; &lt;span class="kt"&gt;void&lt;/span&gt; &lt;span class="nf"&gt;requestProtectedUrlWithUser&lt;/span&gt;&lt;span class="o"&gt;()&lt;/span&gt; &lt;span class="kd"&gt;throws&lt;/span&gt; &lt;span class="n"&gt;Exception&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+  &lt;span class="n"&gt;mvc&lt;/span&gt;
+      &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;perform&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"/"&lt;/span&gt;&lt;span class="o"&gt;))&lt;/span&gt;
+      &lt;span class="o"&gt;...&lt;/span&gt;
+&lt;span class="o"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;For additional information on how to use the annotations, refer to my &lt;a href="http://spring.io/blog/2014/05/07/preview-spring-security-test-method-security"&gt;previous blog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;
+&lt;a name="user-content-testing-http-basic-authentication" class="anchor" href="#testing-http-basic-authentication"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Testing HTTP Basic Authentication&lt;/h3&gt;
+
+&lt;p&gt;While it has always been possible to authenticate with HTTP Basic, it was a bit tedious to remember the header name, format, and encode the values. Now this can be done using Spring Security's &lt;code&gt;httpBasic&lt;/code&gt; &lt;code&gt;RequestPostProcessor&lt;/code&gt;. For example, the snippet below:&lt;/p&gt;
+
+&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="n"&gt;mvc&lt;/span&gt;
+    &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;perform&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"/"&lt;/span&gt;&lt;span class="o"&gt;).&lt;/span&gt;&lt;span class="na"&gt;with&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;httpBasic&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"user"&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;&lt;span class="s"&gt;"password"&lt;/span&gt;&lt;span class="o"&gt;)))&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;will attempt to use HTTP Basic to authenticate a user with the username "user" and the password "password" by ensuring the following header is populated on the HTTP Request:&lt;/p&gt;
+
+&lt;div class="highlight highlight-text"&gt;&lt;pre&gt;Authorization: Basic dXNlcjpwYXNzd29yZA==
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2&gt;
+&lt;a name="user-content-securitymockmvcrequestbuilders" class="anchor" href="#securitymockmvcrequestbuilders"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;SecurityMockMvcRequestBuilders&lt;/h2&gt;
+
+&lt;p&gt;Spring MVC Test also provides a &lt;code&gt;RequestBuilder&lt;/code&gt; interface that can be used to create the &lt;code&gt;MockHttpServletRequest&lt;/code&gt; used in your test. Spring Security provides a few &lt;code&gt;RequestBuilder&lt;/code&gt; implementations that can be used to make testing easier.   In order to use Spring Security's &lt;code&gt;RequestBuilder&lt;/code&gt; implementations ensure the following static import is used:&lt;/p&gt;
+
+&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;static&lt;/span&gt; &lt;span class="n"&gt;org&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;springframework&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;security&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;test&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;web&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;servlet&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;request&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;SecurityMockMvcRequestBuilders&lt;/span&gt;&lt;span class="o"&gt;.*;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;
+&lt;a name="user-content-testing-form-based-authentication" class="anchor" href="#testing-form-based-authentication"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Testing Form Based Authentication&lt;/h3&gt;
+
+&lt;p&gt;You can easily create a request to test a form based authentication using Spring Security's testing support. For example, the following will submit a POST to "/login" with the username "user", the password "password", and a valid CSRF token:&lt;/p&gt;
+
+&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="n"&gt;mvc&lt;/span&gt;
+    &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;perform&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;formLogin&lt;/span&gt;&lt;span class="o"&gt;())&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;It is easy to customize the request. For example, the following will submit a POST to "/auth" with the username "admin", the password "pass", and a valid CSRF token:&lt;/p&gt;
+
+&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="n"&gt;mvc&lt;/span&gt;
+    &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;perform&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;formLogin&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"/auth"&lt;/span&gt;&lt;span class="o"&gt;).&lt;/span&gt;&lt;span class="na"&gt;user&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"admin"&lt;/span&gt;&lt;span class="o"&gt;).&lt;/span&gt;&lt;span class="na"&gt;password&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"pass"&lt;/span&gt;&lt;span class="o"&gt;))&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;We can also customize the parameters names that the username and password are included on. For example, this is the above request modified to include the username on the HTTP parameter "u" and the password on the HTTP parameter "p".&lt;/p&gt;
+
+&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="n"&gt;mvc&lt;/span&gt;
+    &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;perform&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;formLogin&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"/auth"&lt;/span&gt;&lt;span class="o"&gt;).&lt;/span&gt;&lt;span class="na"&gt;user&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"a"&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;&lt;span class="s"&gt;"admin"&lt;/span&gt;&lt;span class="o"&gt;).&lt;/span&gt;&lt;span class="na"&gt;password&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"p"&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;&lt;span class="s"&gt;"pass"&lt;/span&gt;&lt;span class="o"&gt;))&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;
+&lt;a name="user-content-testing-logout" class="anchor" href="#testing-logout"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Testing Logout&lt;/h3&gt;
+
+&lt;p&gt;While fairly trivial using standard Spring MVC Test, you can use Spring Security's testing support to make testing log out easier. For example, the following will submit a POST to "/logout" with a valid CSRF token:&lt;/p&gt;
+
+&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="n"&gt;mvc&lt;/span&gt;
+    &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;perform&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;logout&lt;/span&gt;&lt;span class="o"&gt;())&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;You can also customize the URL to post to. For example, the snippet below will submit a POST to "/signout" with a valid CSRF token:&lt;/p&gt;
+
+&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="n"&gt;mvc&lt;/span&gt;
+    &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;perform&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;logout&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"/signout"&lt;/span&gt;&lt;span class="o"&gt;))&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2&gt;
+&lt;a name="user-content-securitymockmvcresultmatchers" class="anchor" href="#securitymockmvcresultmatchers"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;SecurityMockMvcResultMatchers&lt;/h2&gt;
+
+&lt;p&gt;At times it is desirable to make various security related assertions about a request. To accommodate this need, Spring Security Test support implements  Spring MVC Test's &lt;code&gt;ResultMatcher&lt;/code&gt; interface. In order to use Spring Security's &lt;code&gt;ResultMatcher&lt;/code&gt; implementations ensure the following static import is used:&lt;/p&gt;
+
+&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;static&lt;/span&gt; &lt;span class="n"&gt;org&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;springframework&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;security&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;test&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;web&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;servlet&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;response&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;SecurityMockMvcResultMatchers&lt;/span&gt;&lt;span class="o"&gt;.*;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;
+&lt;a name="user-content-unauthenticated-assertion" class="anchor" href="#unauthenticated-assertion"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Unauthenticated Assertion&lt;/h3&gt;
+
+&lt;p&gt;At times it may be valuable to assert that there is no authenticated user associated with the result of a &lt;code&gt;MockMvc&lt;/code&gt; invocation. For example, you might want to test submitting an invalid username and password and verify that no user is authenticated. You can easily do this with Spring Security's testing support using something like the following:&lt;/p&gt;
+
+&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="n"&gt;mvc&lt;/span&gt;
+    &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;perform&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;formLogin&lt;/span&gt;&lt;span class="o"&gt;().&lt;/span&gt;&lt;span class="na"&gt;password&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"invalid"&lt;/span&gt;&lt;span class="o"&gt;))&lt;/span&gt;
+    &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;andExpect&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;unauthenticated&lt;/span&gt;&lt;span class="o"&gt;());&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;
+&lt;a name="user-content-authenticated-assertion" class="anchor" href="#authenticated-assertion"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Authenticated Assertion&lt;/h3&gt;
+
+&lt;p&gt;It is often times that we must assert that an authenticated user exists. For example, we may want to verify that we authenticated successfully. We could verify that a form based login was successful with the following snippet of code:&lt;/p&gt;
+
+&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="n"&gt;mvc&lt;/span&gt;
+    &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;perform&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;formLogin&lt;/span&gt;&lt;span class="o"&gt;())&lt;/span&gt;
+    &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;andExpect&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;authenticated&lt;/span&gt;&lt;span class="o"&gt;());&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;If we wanted to assert the roles of the user, we could refine our previous code as shown below:&lt;/p&gt;
+
+&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="n"&gt;mvc&lt;/span&gt;
+    &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;perform&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;formLogin&lt;/span&gt;&lt;span class="o"&gt;().&lt;/span&gt;&lt;span class="na"&gt;user&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"admin"&lt;/span&gt;&lt;span class="o"&gt;))&lt;/span&gt;
+    &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;andExpect&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;authenticated&lt;/span&gt;&lt;span class="o"&gt;().&lt;/span&gt;&lt;span class="na"&gt;withRoles&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"USER"&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;&lt;span class="s"&gt;"ADMIN"&lt;/span&gt;&lt;span class="o"&gt;));&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Alternatively, we could verify the username:&lt;/p&gt;
+
+&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="n"&gt;mvc&lt;/span&gt;
+    &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;perform&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;formLogin&lt;/span&gt;&lt;span class="o"&gt;().&lt;/span&gt;&lt;span class="na"&gt;user&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"admin"&lt;/span&gt;&lt;span class="o"&gt;))&lt;/span&gt;
+    &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;andExpect&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;authenticated&lt;/span&gt;&lt;span class="o"&gt;().&lt;/span&gt;&lt;span class="na"&gt;withUsername&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"admin"&lt;/span&gt;&lt;span class="o"&gt;));&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;We can also combine the assertions:&lt;/p&gt;
+
+&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="n"&gt;mvc&lt;/span&gt;
+    &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;perform&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;formLogin&lt;/span&gt;&lt;span class="o"&gt;().&lt;/span&gt;&lt;span class="na"&gt;user&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"admin"&lt;/span&gt;&lt;span class="o"&gt;).&lt;/span&gt;&lt;span class="na"&gt;roles&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"USER"&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;&lt;span class="s"&gt;"ADMIN"&lt;/span&gt;&lt;span class="o"&gt;))&lt;/span&gt;
+    &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;andExpect&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;authenticated&lt;/span&gt;&lt;span class="o"&gt;().&lt;/span&gt;&lt;span class="na"&gt;withUsername&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"admin"&lt;/span&gt;&lt;span class="o"&gt;));&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2&gt;
+&lt;a name="user-content-with-htmlunit" class="anchor" href="#with-htmlunit"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;With HtmlUnit&lt;/h2&gt;
+
+&lt;p&gt;We have now seen how Spring Security Test support can make testing with Spring MVC Test easier. In our &lt;a href="http://spring.io/blog/2014/05/23/preview-spring-security-test-htmlunit"&gt;next blog&lt;/a&gt;, we will explore how to use Spring Security Testing support with &lt;a href="https://github.com/spring-projects/spring-test-mvc-htmlunit"&gt;Spring Test MVC HtmlUnit&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;div class="callout"&gt;
+&lt;div class="callout-title"&gt;Feedback please!&lt;/div&gt;
+
+If you have feedback on this blog series or the Spring Security Test support, I encourage you to reach out via &lt;a href="https://jira.spring.io/browse/SEC"&gt;JIRA&lt;/a&gt;, via the comments section, or ping me on twitter &lt;a href="https://twitter.com/rob_winch"&gt;@rob_winch&lt;/a&gt;. Of course the best feedback comes in the form of &lt;a href="https://github.com/spring-projects/spring-security/blob/master/CONTRIBUTING.md"&gt;contributions&lt;/a&gt;.
+
+&lt;/div&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Integration 4.0.1 is Available</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/05/22/spring-integration-4-0-1-is-available" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Gary Russell</name>
+    </author>
+    <id>tag:spring.io,2014-05-22:1588</id>
+    <updated>2014-05-22T20:46:13Z</updated>
+    <content type="html">&lt;p&gt;This is the first maintenance release of Spring Integration 4.0; it contains a small number of fixes and improvements, and brings the dependencies for other Spring projects up to their latest versions.&lt;/p&gt;
+
+&lt;p&gt;See the &lt;a href="https://jira.spring.io/secure/ReleaseNote.jspa?projectId=10121&amp;amp;version=14526"&gt;release notes&lt;/a&gt; for details of the contents.&lt;/p&gt;
+
+&lt;p&gt;See the &lt;a href="http://projects.spring.io/spring-integration/"&gt;Project Home Page&lt;/a&gt; for documentation, downloads etc.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Web Services 2.2.0 Released</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/05/22/spring-web-services-2-2-0-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Arjen Poutsma</name>
+    </author>
+    <id>tag:spring.io,2014-05-22:1587</id>
+    <updated>2014-05-22T14:41:00Z</updated>
+    <content type="html">&lt;p&gt;I'm pleased to announce that Spring Web Services 2.2.0.RELEASE has been released! This is the first release in the 2.2 release cycle. The main new feature in 2.2 is the introduction of code configuration support for Spring-WS. This means that you can now configure Spring-WS with a simple &lt;code&gt;@EnableWs&lt;/code&gt; annotation. For instance:&lt;/p&gt;
+
+&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="nd"&gt;@Configuration&lt;/span&gt;
+&lt;span class="nd"&gt;@EnableWs&lt;/span&gt;
+&lt;span class="nd"&gt;@ComponentScan&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;basePackageClasses&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt; &lt;span class="n"&gt;MyConfiguration&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;class&lt;/span&gt; &lt;span class="o"&gt;})&lt;/span&gt;
+&lt;span class="kd"&gt;public&lt;/span&gt; &lt;span class="kd"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;MyWsConfiguration&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+
+  &lt;span class="c1"&gt;// @Beans go here&lt;/span&gt;
+&lt;span class="o"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;For more information about this topic, refer to the &lt;a href="http://static.springframework.org/spring-ws/docs/current/api/org/springframework/ws/config/annotation/EnableWs.html"&gt;javadoc of @EnableWs&lt;/a&gt;. You can also read more about this new feature in the &lt;a href="http://static.springframework.org/spring-ws/docs/current/reference/html/"&gt;updated reference documentation&lt;/a&gt;. To view a complete list of changes see the &lt;a href="https://jira.spring.io/secure/ReleaseNote.jspa?projectId=10060&amp;amp;version=12850"&gt;changelog&lt;/a&gt;.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Security 3.2.4 Released</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/05/21/spring-security-3-2-4-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Rob Winch</name>
+    </author>
+    <id>tag:spring.io,2014-05-21:1586</id>
+    <updated>2014-05-21T22:25:47Z</updated>
+    <content type="html">&lt;p&gt;I'm pleased to announce the release of Spring Security 3.2.4. This release includes a number of bug fixes. To view a list of changes see the &lt;a href="https://jira.spring.io/secure/ReleaseNote.jspa?projectId=10040&amp;amp;version=14496"&gt;changelog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://docs.spring.io/spring-security/site/docs/3.2.4.RELEASE/reference/htmlsingle/"&gt;Reference&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-security/site/docs/3.2.4.RELEASE/apidocs/"&gt;Javadoc&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-security/site/docs/3.2.x/guides/"&gt;Guides&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring LDAP 2.0.2 Released</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/05/21/spring-ldap-2-0-2-released" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Rob Winch</name>
+    </author>
+    <id>tag:spring.io,2014-05-21:1585</id>
+    <updated>2014-05-21T21:57:53Z</updated>
+    <content type="html">&lt;p&gt;I'm pleased to announce the release of Spring LDAP 2.0.2.RELEASE. The highlights of this release include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="https://jira.spring.io/browse/LDAP-300"&gt;LDAP-300&lt;/a&gt; - Fix potential NullPointerException when using Spring LDAP in a uber jar &lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://jira.spring.io/browse/LDAP-299"&gt;LDAP-299&lt;/a&gt; - Deprecation of spring-ldap-ldif-batch module in favor of using classes within Spring Batch&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;For additional information on the release, refer to the &lt;a href="https://jira.spring.io/secure/ReleaseNote.jspa?projectId=10071&amp;amp;version=14505"&gt;changelog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://docs.spring.io/spring-ldap/docs/2.0.2.RELEASE/reference/"&gt;Reference&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-ldap/docs/2.0.2.RELEASE/apidocs/"&gt;Javadoc&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Grails 2.4 Released</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/05/21/grails-2-4-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Graeme Rocher</name>
+    </author>
+    <id>tag:spring.io,2014-05-21:1584</id>
+    <updated>2014-05-21T14:57:00Z</updated>
+    <content type="html">&lt;p&gt;Today we are pleased to announce the release of &lt;a href="https://grails.org/2.4.0+Release+Notes"&gt;Grails 2.4&lt;/a&gt;. This is the final release in the 2.x line of releases and includes a number of significant updates.&lt;/p&gt;
+
+&lt;p&gt;Most importantly Grails 2.4.x ships with key pieces of the &lt;a href="https://spring.io/platform"&gt;Spring IO platform&lt;/a&gt;, including &lt;a href="http://spring.io/blog/2014/05/07/groovy-2-3-released"&gt;Groovy 2.3&lt;/a&gt; and &lt;a href="http://spring.io/blog/2014/05/20/spring-framework-4-0-5-3-2-9-released-next-stop-4-1"&gt;Spring 4.0.5&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;
+&lt;a name="user-content-release-highlights" class="anchor" href="#release-highlights"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Release Highlights&lt;/h2&gt;
+
+&lt;p&gt;In addition to the inclusion of the latest versions of Spring and Groovy there are a number of key new features in this release, including:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;strong&gt;Standalone GORM &amp;amp; GSP&lt;/strong&gt; - Yes, &lt;a href="http://spring.io/guides/gs/accessing-data-gorm/"&gt;GORM for Hibernate 4&lt;/a&gt; and &lt;a href="http://spring.io/guides/gs/accessing-data-gorm-mongodb/"&gt;GORM for MongoDB&lt;/a&gt; can both be used outside of Grails in a Spring Boot application or Groovy script.&lt;/li&gt;
+&lt;li&gt;
+&lt;strong&gt;Static Compilation&lt;/strong&gt; - Using extensions to Groovy's static compilation features, it is now possible to statically compile many interactions with the Grails framework, including dynamic finders.&lt;/li&gt;
+&lt;li&gt;
+&lt;strong&gt;Asset Pipeline Plugin&lt;/strong&gt; - Grails 2.4 replaces the previous Resources plugin with the new &lt;a href="http://grails.org/plugin/asset-pipeline"&gt;Asset Pipeline&lt;/a&gt; plugin for managing static assets (CSS, JavaScript etc.).&lt;/li&gt;
+&lt;li&gt;
+&lt;strong&gt;GORM Subqueries&lt;/strong&gt; - GORM has been enhanced, with extensive support for correlated subqueries.&lt;/li&gt;
+&lt;li&gt;
+&lt;strong&gt;New Maven Plugin&lt;/strong&gt; - The &lt;a href="https://github.com/grails/grails-maven"&gt;Maven plugin&lt;/a&gt; has been rewritten to use Aether for dependency resolution and now works with multiple versions of Grails.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;There is a more &lt;a href="http://grails.org/doc/2.4.x/guide/introduction.html#whatsNew24"&gt;comprehensive guide to all the new features&lt;/a&gt; available on the Grails website.&lt;/p&gt;
+
+&lt;h2&gt;
+&lt;a name="user-content-grails-30" class="anchor" href="#grails-30"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Grails 3.0&lt;/h2&gt;
+
+&lt;p&gt;The focus of our work now shifts to Grails 3.0, which will be a reimagination of the framework you know and love. &lt;/p&gt;
+
+&lt;p&gt;Grails 3.0 will be based on &lt;a href="http://projects.spring.io/spring-boot/"&gt;Spring Boot&lt;/a&gt;, feature advanced &lt;a href="http://gradle.org"&gt;Gradle&lt;/a&gt; support and the ability to build a range of application types from Micro services to traditional web applications.&lt;/p&gt;
+
+&lt;p&gt;We would love to hear your feedback on the release. To report issues head &lt;a href="http://jira.grails.org/browse/GRAILS"&gt;over to JIRA&lt;/a&gt; and to join the discussion checkout our new &lt;a href="https://groups.google.com/forum/#!forum/grails-dev-discuss"&gt;Google Group&lt;/a&gt; or &lt;a href="http://stackoverflow.com/tags/grails"&gt;post questions on Stack Overflow&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Cheers,
+Graeme&lt;/p&gt;</content>
+  </entry>
+</feed>
+

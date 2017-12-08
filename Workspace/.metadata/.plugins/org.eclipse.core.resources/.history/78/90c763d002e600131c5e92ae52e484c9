@@ -1,0 +1,42 @@
+package com.egglab.pacman.main;
+
+import com.egglab.pacman.framework.Screen;
+import com.egglab.pacman.implementation.AndroidGame;
+
+public class MainGame extends AndroidGame {
+
+	private GameState gameState;
+		
+	@Override
+	public Screen getInitScreen() {
+        this.setGameState(GameState.INIT);
+		return (Screen) new MainScreen(this);
+
+	}
+
+	@Override
+	public void onBackPressed() {
+		getCurrentScreen().backButton();
+	}
+
+	@Override
+	public void onResume() {
+		super.onResume();
+
+	}
+
+	@Override
+	public void onPause() {
+		super.onPause();
+
+	}
+
+	public GameState getGameState() {
+		return gameState;
+	}
+
+	public void setGameState(GameState gameState) {
+		this.gameState = gameState;
+	}
+	
+}

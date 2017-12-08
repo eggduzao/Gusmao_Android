@@ -1,0 +1,9 @@
+package com.egglab.pacman.object;
+
+public class SuperCandy {
+
+	public SuperCandy() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

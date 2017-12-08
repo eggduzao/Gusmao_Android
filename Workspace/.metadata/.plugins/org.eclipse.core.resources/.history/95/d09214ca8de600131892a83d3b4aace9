@@ -1,0 +1,86 @@
+package com.egglab.pacman.main;
+
+import android.graphics.Color;
+import android.util.Log;
+
+import com.egglab.pacman.asset.MainImageAssets;
+import com.egglab.pacman.framework.Game;
+import com.egglab.pacman.framework.Screen;
+
+public class MainScreen extends Screen {
+	
+	private GameState gameState;
+	
+	public MainScreen(Game game) {
+		super(game);
+		this.gameState = GameState.INIT;
+		MainImageAssets.load((MainGame) game);
+	}
+
+	@Override
+	public void update(float deltaTime) {
+		
+		this.game.getGraphics().drawRect(0, 0, 600, 800, Color.WHITE);
+
+		switch (this.gameState) {
+		case INIT:
+			Log.i("error","INIT");
+			this.setGameState(GameState.SCREEN1);
+			this.game.getGraphics().setAlpha(100);
+			this.game.getGraphics().drawImage(MainImageAssets.image1, 0, 0);
+			try { Thread.sleep(2000); } catch (InterruptedException e) {}
+			break;
+		case SCREEN1:
+			Log.i("error","SCREEN1");
+			this.setGameState(GameState.SCREEN2);
+			try { Thread.sleep(2000); } catch (InterruptedException e) {}
+			break;
+		case SCREEN2:
+			Log.i("error","SCREEN2");
+			this.setGameState(GameState.SCREEN3);
+			try { Thread.sleep(2000); } catch (InterruptedException e) {}
+			break;
+		case SCREEN3:
+			Log.i("error","SCREEN3");
+			this.setGameState(GameState.INIT);
+			try { Thread.sleep(2000); } catch (InterruptedException e) {}
+			break;
+		}
+		
+
+	}
+
+	@Override
+	public void paint(float deltaTime) {
+
+	}
+
+	@Override
+	public void pause() {
+
+	}
+
+	@Override
+	public void resume() {
+
+	}
+
+	@Override
+	public void dispose() {
+
+	}
+
+	@Override
+	public void backButton() {
+
+	}
+	
+	public GameState getGameState() {
+		return gameState;
+	}
+
+	public void setGameState(GameState gameState) {
+		this.gameState = gameState;
+	}
+	
+}

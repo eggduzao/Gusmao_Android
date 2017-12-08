@@ -1,0 +1,5 @@
+package com.egglab.pacman.main;
+
+public enum GameState {
+
+}

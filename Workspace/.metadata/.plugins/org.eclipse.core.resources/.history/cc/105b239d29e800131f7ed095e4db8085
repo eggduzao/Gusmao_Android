@@ -1,0 +1,49 @@
+package com.egglab.pacman.main;
+
+import android.annotation.SuppressLint;
+import android.graphics.Point;
+import android.util.DisplayMetrics;
+import android.view.Display;
+
+import com.egglab.pacman.framework.Screen;
+import com.egglab.pacman.implementation.AndroidGame;
+
+public class MainGame extends AndroidGame {
+		
+	private Point screenSize;
+	
+	@SuppressLint("NewApi")
+	@Override
+	public Screen getInitScreen() {
+		DisplayMetrics displaymetrics = new DisplayMetrics();
+		getWindowManager().getDefaultDisplay().getMetrics(displaymetrics);
+		this.screenSize = new Point(displaymetrics.widthPixels,displaymetrics.heightPixels);
+		return new MainScreen(this);
+	}
+	
+	@Override
+	public void onBackPressed() {
+		getCurrentScreen().backButton();
+	}
+
+	@Override
+	public void onResume() {
+		super.onResume();
+
+	}
+
+	@Override
+	public void onPause() {
+		super.onPause();
+
+	}
+
+	public Point getScreenSize() {
+		return screenSize;
+	}
+
+	public void setScreenSize(Point screenSize) {
+		this.screenSize = screenSize;
+	}
+	
+}

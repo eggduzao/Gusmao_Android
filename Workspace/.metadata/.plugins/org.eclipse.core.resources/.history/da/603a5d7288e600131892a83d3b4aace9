@@ -1,0 +1,18 @@
+
+class StaticClass{
+	
+	public static int a = 0;
+	
+	public static load(){
+		a = 1;
+	}
+	
+}
+
+public class StaticTest {
+
+	public StaticTest() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
